@@ -2,13 +2,13 @@
 
 > 🐱 Short URL: [https://a.catamyst.com/stack](https://a.catamyst.com/stack)
 
-This is Catamyst&#39;s both technical and non-technical stack. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
+This is Catamyst's both technical and non-technical stack. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
 
 ## Preferences
 
 ### Quick version
 
-TypeScript, Remix, Ariakit, Prisma, PlanetScale, GraphQL, GraphQL Yoga, Pothos Schema, Vercel, Railway.app
+TypeScript (HTML+CSS+JavaScript+Node.js included), React, Remix, Tailwind CSS, Ariakit, Prisma ORM, MySQL on PlanetScale, GraphQL, GraphQL Yoga, Pothos Schema, Vercel, Railway.app
 
 ### Short version
 
@@ -120,7 +120,7 @@ All of these information also helps the whole team (or even yourself) to choose 
 
 # Stages
 
-Here&#39;s some quick overview of the preferred or recommended options. Because of the complexity, the setup can go through several stages based on the priorities. In here, there should be no link, annotations, or ratings.
+Here is some quick overview of the preferred or recommended options. Because of the complexity, the setup can go through several stages based on the priorities. In here, there should be no link, annotations, or ratings.
 
 ## Stage 0 → Setup
 
@@ -679,7 +679,7 @@ Template, starter kit, or boilerplate:
     - @tailwindcss/line-clamp
     - @tailwindcss/aspect-ratio
 - UnoCSS ⭐⭐⭐ — ?
-    - It&#39;s actually better than Tailwind, just the ecosystem is still new, like there&#39;s no editor plugin yet
+    - It's actually better than Tailwind, just the ecosystem is still new, like there is no editor plugin yet
 - [Master CSS](https://css.master.co/) ⭐⭐⭐  — A Virtual CSS language with enhanced syntax. Efficiently build your UI and design system with HTML only.
 
 ### Variant components
@@ -759,7 +759,7 @@ Template, starter kit, or boilerplate:
     - [https://vercel.com/changelog/remix-projects-can-now-be-deployed-with-zero-configuration](https://vercel.com/changelog/remix-projects-can-now-be-deployed-with-zero-configuration)
 - Netlify ❤️⭐⭐⭐⭐ — ?
 - Cloudflare Pages ⭐⭐⭐ — ?
-    - Free for organizations but slightly slower than Vercel. A bit harder to debug because they don&#39;t really use Node.js
+    - Free for organizations but slightly slower than Vercel. A bit harder to debug because they don't really use Node.js
     - [https://blog.cloudflare.com/remix-on-cloudflare-pages](https://blog.cloudflare.com/remix-on-cloudflare-pages/)
 - Cloudflare Workers ⭐⭐ — ?
 
@@ -929,7 +929,7 @@ Template, starter kit, or boilerplate:
     - Still needed in case of an alternative or public API release
 - tRPC — ?
 - gRPC — ?
-    - Only when there&#39;s a budget and performance issue
+    - Only when there is a budget and performance issue
 - WebSocket — ?
     - Socket.io — ?
     - [soketi](https://soketi.app/) — Simple, fast, and resilient open-source WebSockets server. 📣
@@ -1048,7 +1048,7 @@ Template, starter kit, or boilerplate:
 
 ## Backend library
 
-- [geoip-lite/node-geoip](https://github.com/geoip-lite/node-geoip) — Native Node.js implementation of MaxMind&#39;s GeoIP API 
+- [geoip-lite/node-geoip](https://github.com/geoip-lite/node-geoip) — Native Node.js implementation of MaxMind's GeoIP API 
 
 ## Backend storage for static assets
 
@@ -1188,7 +1188,7 @@ Subscription data platform and analytics.
 
 ## CRM and chat support
 
-- [Crisp](https://crisp.chat/) ❤️⭐⭐⭐⭐⭐ — #1 Messaging Platform For Startups &amp; SMB&#39;s
+- [Crisp](https://crisp.chat/) ❤️⭐⭐⭐⭐⭐ — #1 Messaging Platform For Startups and SMBs
 - [HubSpot](https://www.hubspot.com/products/crm) ❤️⭐⭐⭐⭐ — Best Free CRM Software for Businesses
 - Chatwoot ⭐⭐⭐ — ?
 - Groove ⭐⭐⭐ — ?
@@ -1435,7 +1435,7 @@ Subscription data platform and analytics.
 - [https://lucaong.github.io/minisearch/](https://lucaong.github.io/minisearch/) — Tiny and powerful JavaScript full-text search engine for browser and Node
 - [Bree](https://jobscheduler.net) — The best job scheduler for Node.js and JavaScript with cron, dates, ms, later, and human-friendly support.
 - [https://bitmovin.com](https://bitmovin.com/) — APIs to encode, play and analyze video
-- [https://www.deepl.com/translator](https://www.deepl.com/translator) — DeepL Translate: The world&#39;s most accurate translator
+- [https://www.deepl.com/translator](https://www.deepl.com/translator) — DeepL Translate: The world's most accurate translator
 - [PicWish](https://picwish.com/) — Online Background Remover
 - [https://www.meilisearch.com/](https://www.meilisearch.com/)
 - [https://github.com/valeriansaliou/vigil](https://github.com/valeriansaliou/vigil)
