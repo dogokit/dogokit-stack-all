@@ -453,22 +453,25 @@ Generally for tracking issue, feedback, roadmap, changelog, and time.
 
 ## Community and social media
 
+Especially for profile pictures.
+
 - GitHub — ?
 - GitLab — ?
+- LinkedIn — ?
 - Twitter — ?
+- Facebook — ?
+- Instagram — ?
 - YouTube — ?
+- Discord — ?
+- Showwcase — ?
+- Slack — ?
 - Makerlog — ?
 - WIP — ?
 - Polywork — ?
 - Stack Overflow — ?
-- Showwcase — ?
-- Dev.to — ?
 - Hashnode — ?
-- Discord — ?
-- Slack — ?
-- LinkedIn — ?
-- Facebook — ?
-- Instagram — ?
+- Dev.to — ?
+- Gravatar — ?
 
 # Jobs
 
