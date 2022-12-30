@@ -146,6 +146,7 @@ Setup options:
     - Numi → Calculator
     - Owly → Prevent sleep
     - Macs Fan Control → Change fan speed
+    - Hidden Bar / Vanilla → Hide menu bar items
     - iStat Menus → System status
     - KeyCastr → Show keystroke
 - Bitwarden + Authy → Credentials &amp; 2FA
