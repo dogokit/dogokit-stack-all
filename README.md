@@ -558,6 +558,7 @@ Especially for profile pictures.
     - eslint-config-airbnb
     - @remix-run/eslint-config
     - prettier-eslint
+    - eslint-plugin-tailwindcss
 - [Stylelint](https://stylelint.io/) ⭐⭐⭐⭐⭐ — A mighty, modern linter that helps you avoid errors and enforce conventions in your styles
     - stylelint-config-prettier
 - [ls-lint](https://ls-lint.org/) ⭐⭐⭐⭐⭐— File name linter
