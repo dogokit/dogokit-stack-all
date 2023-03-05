@@ -1,6 +1,6 @@
-# Catamyst Stack
+# Catamyst Stack All
 
-> 🐱 Short URL: [https://a.catamyst.com/stack](https://a.catamyst.com/stack)
+> 🐱 Short URL: [https://a.catamyst.com/stack-all](https://a.catamyst.com/stack-all)
 
 This is Catamyst's both technical and non-technical stack. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
 
