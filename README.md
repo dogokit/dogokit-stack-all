@@ -1,8 +1,147 @@
 # Catamyst Stack All
 
-> 🐱 Short URL: [https://a.catamyst.com/stack-all](https://a.catamyst.com/stack-all)
+> 🐱 Short URL: [a.catamyst.com/stack-all](https://a.catamyst.com/stack-all)
 
 This is Catamyst's both technical and non-technical stack. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
+
+## Table of Contents
+
+- [Catamyst Stack All](#catamyst-stack-all)
+  - [Table of Contents](#table-of-contents)
+  - [Preferences](#preferences)
+    - [Quick version](#quick-version)
+    - [Short version](#short-version)
+    - [Complete version](#complete-version)
+  - [Names](#names)
+  - [Notes](#notes)
+  - [Legend](#legend)
+  - [References](#references)
+- [Concepts](#concepts)
+  - [References](#references-1)
+- [Stages](#stages)
+  - [Stage 0 → Setup](#stage-0--setup)
+    - [References](#references-2)
+  - [Stage 1 → Design](#stage-1--design)
+  - [Stage 2 → Configuration](#stage-2--configuration)
+  - [Stage 2 → Frontend interface](#stage-2--frontend-interface)
+  - [Stage 3 → Frontend interaction](#stage-3--frontend-interaction)
+  - [Stage 4 → Database, storage, and email](#stage-4--database-storage-and-email)
+  - [Stage 5 → Payment 💰](#stage-5--payment-)
+  - [Stage 6 → API](#stage-6--api)
+  - [Stage 7 → Testing](#stage-7--testing)
+  - [Stage 8 → CI/CD](#stage-8--cicd)
+- [Work/Management Stack](#workmanagement-stack)
+  - [Browser](#browser)
+  - [Search Engine](#search-engine)
+  - [Utility](#utility)
+  - [Multimedia](#multimedia)
+  - [Communication](#communication)
+    - [External text](#external-text)
+    - [External video](#external-video)
+    - [Internal text](#internal-text)
+    - [Internal video](#internal-video)
+  - [Knowledge base](#knowledge-base)
+  - [General management](#general-management)
+  - [Engineering management](#engineering-management)
+  - [Calendar and scheduling](#calendar-and-scheduling)
+  - [Community and social media](#community-and-social-media)
+- [Jobs](#jobs)
+- [General / Full Stack / Frontend \& Backend](#general--full-stack--frontend--backend)
+  - [Terminal, shell, prompt](#terminal-shell-prompt)
+  - [Code management, version control, auto-merge](#code-management-version-control-auto-merge)
+  - [Code editor](#code-editor)
+  - [Languages, platforms, runtimes](#languages-platforms-runtimes)
+  - [Configuration, formatter, linter](#configuration-formatter-linter)
+  - [Generic library for utility](#generic-library-for-utility)
+    - [slug](#slug)
+- [Frontend Stack](#frontend-stack)
+  - [UI, UX, and graphic design](#ui-ux-and-graphic-design)
+  - [Asset colors](#asset-colors)
+  - [Asset design, diagram, flowchart](#asset-design-diagram-flowchart)
+  - [Frontend/web app framework](#frontendweb-app-framework)
+  - [Frontend routing](#frontend-routing)
+  - [Module bundler, transpiler, minifier, mangler, compressor](#module-bundler-transpiler-minifier-mangler-compressor)
+  - [Full-stack web app framework](#full-stack-web-app-framework)
+  - [Styling and design system](#styling-and-design-system)
+    - [Styling preferences](#styling-preferences)
+    - [Pure styling options](#pure-styling-options)
+    - [Variant components](#variant-components)
+    - [Behavioral components](#behavioral-components)
+    - [Styled components](#styled-components)
+    - [Misc](#misc)
+  - [Data fetching](#data-fetching)
+  - [Font hosting](#font-hosting)
+  - [Frontend hosting](#frontend-hosting)
+  - [Frontend tools](#frontend-tools)
+  - [Frontend library](#frontend-library)
+  - [Frontend state management](#frontend-state-management)
+  - [Frontend assets](#frontend-assets)
+- [Backend Stack](#backend-stack)
+  - [Platforms and runtimes](#platforms-and-runtimes)
+  - [Backend/web server frameworks](#backendweb-server-frameworks)
+  - [Web API](#web-api)
+  - [Backend as a Service (BaaS) and CMS](#backend-as-a-service-baas-and-cms)
+    - [All in One](#all-in-one)
+    - [Simple Form](#simple-form)
+    - [Backend with Auth](#backend-with-auth)
+    - [Notification](#notification)
+    - [CMS with Rich Text Editing](#cms-with-rich-text-editing)
+    - [Internal Tool](#internal-tool)
+  - [Database ORM](#database-orm)
+  - [Database Management System (DBMS)](#database-management-system-dbms)
+  - [Data Stream](#data-stream)
+  - [Database Client](#database-client)
+  - [Data Encryption](#data-encryption)
+  - [Backend or Full Stack Hosting](#backend-or-full-stack-hosting)
+  - [Backend library](#backend-library)
+  - [Backend storage for static assets](#backend-storage-for-static-assets)
+  - [Backend service](#backend-service)
+- [Test](#test)
+  - [General](#general)
+  - [Unit and Functional](#unit-and-functional)
+  - [Functional](#functional)
+  - [End to End](#end-to-end)
+  - [Utility](#utility-1)
+- [Services](#services)
+  - [Network](#network)
+  - [Payment and finance 💰](#payment-and-finance-)
+  - [Payment revenue and subscription analysis](#payment-revenue-and-subscription-analysis)
+  - [Business management](#business-management)
+  - [Accounting and Invoice](#accounting-and-invoice)
+  - [Blog](#blog)
+  - [Hiring](#hiring)
+  - [URL shortener](#url-shortener)
+  - [CRM and chat support](#crm-and-chat-support)
+  - [Web and product analytics](#web-and-product-analytics)
+  - [Internationalization](#internationalization)
+  - [Feature toggle](#feature-toggle)
+  - [Monitoring, logging, error tracking, and replayer](#monitoring-logging-error-tracking-and-replayer)
+  - [Profiler and session replay](#profiler-and-session-replay)
+  - [Uptime monitoring and incident response:](#uptime-monitoring-and-incident-response)
+  - [Infrastructure monitoring](#infrastructure-monitoring)
+  - [Log management and analysis:](#log-management-and-analysis)
+  - [Marketing and newsletter email](#marketing-and-newsletter-email)
+  - [Transactional email](#transactional-email)
+  - [Containerization](#containerization)
+  - [CI/CD](#cicd)
+  - [Dependency management](#dependency-management)
+  - [Community network](#community-network)
+  - [Image editing](#image-editing)
+  - [Video editing and sharing](#video-editing-and-sharing)
+  - [Audio editing and sharing](#audio-editing-and-sharing)
+  - [Shipping](#shipping)
+- [References](#references-3)
+  - [General](#general-1)
+  - [Remix](#remix)
+  - [GraphQL](#graphql)
+  - [Security](#security)
+  - [Boilerplate](#boilerplate)
+  - [Workflow](#workflow)
+- [Backlog](#backlog)
+  - [Company](#company)
+  - [Other stacks to evaluate](#other-stacks-to-evaluate)
+    - [Related](#related)
+- [Legacy versions](#legacy-versions)
 
 ## Preferences
 
@@ -18,29 +157,29 @@ HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Node.js, npm, React, Remix, Nex
 
 - JavaScript and TypeScript for programming language
 - Node.js for runtime &amp; npm for package manager
-    - Golang and Rust ecosystem as altenatives
+  - Golang and Rust ecosystem as altenatives
 - HTML for markup language and content structure
 - CSS for styling language
-    - Tailwind CSS for utility classes
-    - cva (Class Variance Authority) for component variants
+  - Tailwind CSS for utility classes
+  - cva (Class Variance Authority) for component variants
 - React for frontend library and UI components
-    - Ariakit, Headless UI, Radix UI for stylable accessible components
+  - Ariakit, Headless UI, Radix UI for stylable accessible components
 - Remix for full stack web framework
-    - Remix Router for routing
-    - Remix Forms for full-stack form library
+  - Remix Router for routing
+  - Remix Forms for full-stack form library
 - Next.js for alternative web framework
-    - Next Router for routing
+  - Next Router for routing
 - Vite for client-side only starter and bundler
 - Turbopack or esbuild for bundler
-    - swc for transpiler
+  - swc for transpiler
 - Authentication and authorization with
-    - Cookie-based sessions
-    - Email/Password
-    - GitHub
+  - Cookie-based sessions
+  - Email/Password
+  - GitHub
 - Express or NestJS for backend framework
-    - GraphQL for data query and manipulation language
-        - GraphQL Yoga and Envelop for the server and plugin system
-    - REST API for other web APIs
+  - GraphQL for data query and manipulation language
+    - GraphQL Yoga and Envelop for the server and plugin system
+  - REST API for other web APIs
 - MySQL for relational database on PlanetScale
 - Prisma for database ORM
 - Pothos for GraphQL schema builder
@@ -127,54 +266,54 @@ Here is some quick overview of the preferred or recommended options. Because of 
 Setup options:
 
 - Laptop
-    - Apple → M1 Pro Macbook Pro
-    - Linux → Thinkpad
-    - Windows → Thinkpad
+  - Apple → M1 Pro Macbook Pro
+  - Linux → Thinkpad
+  - Windows → Thinkpad
 - Operating System (OS)
-    - macOS and iOS → Most reliable
-    - Linux and Android → Most flexible
-    - Windows → Most popular
+  - macOS and iOS → Most reliable
+  - Linux and Android → Most flexible
+  - Windows → Most popular
 - Web Browser
-    - Google Chrome → Most popular
-    - Brave Browser → Most private
-    - Microsoft Edge → Most performant
-    - Mozilla Firefox → Most ethical
+  - Google Chrome → Most popular
+  - Brave Browser → Most private
+  - Microsoft Edge → Most performant
+  - Mozilla Firefox → Most ethical
 - Mac-specific
-    - Raycast → Command panel
-    - Rectangle → Window manager
-    - Maccy → Clipboard manager
-    - Numi → Calculator
-    - Owly → Prevent sleep
-    - Macs Fan Control → Change fan speed
-    - Hidden Bar / Vanilla → Hide menu bar items
-    - iStat Menus → System status
-    - KeyCastr → Show keystroke
+  - Raycast → Command panel
+  - Rectangle → Window manager
+  - Maccy → Clipboard manager
+  - Numi → Calculator
+  - Owly → Prevent sleep
+  - Macs Fan Control → Change fan speed
+  - Hidden Bar / Vanilla → Hide menu bar items
+  - iStat Menus → System status
+  - KeyCastr → Show keystroke
 - Bitwarden + Authy → Credentials &amp; 2FA
 - External communication
-    - Gmail or Google Workspace → Email service by Google
-    - HEY → Email service by Basecamp
+  - Gmail or Google Workspace → Email service by Google
+  - HEY → Email service by Basecamp
 - Internal communication
-    - Twist → Team chat
-    - Email → Backup
+  - Twist → Team chat
+  - Email → Backup
 - External communication
-    - All in One
-        - Airtable → Multi purpose business-oriented database
-            - Form → Collect submissions data
-    - CRM
-        - HubSpot → Free CRM + Help Desk
-        - Crisp → Paid CRM + Help Desk
-    - Email marketing
-        - ConvertKit → Free newsletter emails
-        - Bento → Paid all-in-one marketing automation platform
-    - Community
-        - Discord → Casual chat
-        - Slack → Casual chat
+  - All in One
+    - Airtable → Multi purpose business-oriented database
+      - Form → Collect submissions data
+  - CRM
+    - HubSpot → Free CRM + Help Desk
+    - Crisp → Paid CRM + Help Desk
+  - Email marketing
+    - ConvertKit → Free newsletter emails
+    - Bento → Paid all-in-one marketing automation platform
+  - Community
+    - Discord → Casual chat
+    - Slack → Casual chat
 - GitHub → Git hosting and collaboration
-    - Refined GitHub → ?
-    - DevHub → Desktop GitHub Notifications &amp; Activities
+  - Refined GitHub → ?
+  - DevHub → Desktop GitHub Notifications &amp; Activities
 - Slab → Collaborative notes
 - Linear → Internal issue tracking
-    - Productlane → User feedback and changelog for Linear
+  - Productlane → User feedback and changelog for Linear
 - Clockify → Time tracking
 - Around → Video call
 - Community → Makerlog, WIP, Twitter, YouTube, etc
@@ -187,9 +326,9 @@ Setup options:
 ## Stage 1 → Design
 
 - Figma → UI/UX design tool
-    - Figma Tokens → ?
-    - Tailwind Color Palette → ?
-    - Alphredo → Transparent/alpha colors generator
+  - Figma Tokens → ?
+  - Tailwind Color Palette → ?
+  - Alphredo → Transparent/alpha colors generator
 - Excalidraw / Whimsical → Quick diagram
 - Favicon.io → Favicon Generator
 - Shottr → Screenshot
@@ -197,27 +336,27 @@ Setup options:
 ## Stage 2 → Configuration
 
 - Terminal, shell, prompt
-    - Alacritty → The fastest terminal app
-    - Warp → The modern terminal app
-    - zsh → Terminal shell
-    - Starship.rs → Terminal prompt
+  - Alacritty → The fastest terminal app
+  - Warp → The modern terminal app
+  - zsh → Terminal shell
+  - Starship.rs → Terminal prompt
 - Git → Version control
-    - diff-so-fancy → 
-    - Conventional Commit → ?
+  - diff-so-fancy →
+  - Conventional Commit → ?
 - Repository
-    - Semantic Versioning (semver) → ?
-    - Semantic Release (semantic-release) → Fully automated version management and package publishing
-    - Contributor Covenant → ?
-    - Release Please → ?
+  - Semantic Versioning (semver) → ?
+  - Semantic Release (semantic-release) → Fully automated version management and package publishing
+  - Contributor Covenant → ?
+  - Release Please → ?
 - Package manager
-    - Homebrew → macOS
-    - apt → Ubuntu
+  - Homebrew → macOS
+  - apt → Ubuntu
 - asdf → Runtime manager
-    - Volta → JavaScript tool manager
+  - Volta → JavaScript tool manager
 - Node.js → JavaScript runtime
-    - npm → Node.js package manager
-    - pnpm → npm alternative that is fast and disk space efficient
-    - Openbase → compare open-source packages
+  - npm → Node.js package manager
+  - pnpm → npm alternative that is fast and disk space efficient
+  - Openbase → compare open-source packages
 - TypeScript → Superset of JavaScript with type safety
 - VS Code → Code editor
 - EditorConfig → Common coding style
@@ -237,28 +376,28 @@ Setup options:
 - Next.js → Full stack web framework on React
 - Astro → Static site generator with React/Vue/Svelte/Solid
 - Tailwind CSS → Utility CSS framework
-    - UI Colors → Generate color shades
-    - cva → variant management
+  - UI Colors → Generate color shades
+  - cva → variant management
 - PostCSS → CSS transformer
 - Ariakit → Unstyled components
 - Headless UI → Unstyled, fully accessible UI components
 - Radix UI → Accessible UI component primitives
-    - tailwindcss-radix
+  - tailwindcss-radix
 - Icons
-    - Phosphor Icons → Application icons
-    - React Icons → All in one
-    - Font Awesome → Social media icons
+  - Phosphor Icons → Application icons
+  - React Icons → All in one
+  - Font Awesome → Social media icons
 - UI components
-    - Markdoc → Markdown renderer
-    - Prism.js + Prism React Renderer → Code syntax highlighting renderer
-        - Shiki → Code syntax highlighting alternative
-    - Monaco Editor → Code editor
+  - Markdoc → Markdown renderer
+  - Prism.js + Prism React Renderer → Code syntax highlighting renderer
+    - Shiki → Code syntax highlighting alternative
+  - Monaco Editor → Code editor
 - State management
-    - Jotai →
-    - Zustand → ?
+  - Jotai →
+  - Zustand → ?
 - Nextra / Slate Docs → Documentation
 - Vercel → Deployment for speed
-    - Axiom → Logging
+  - Axiom → Logging
 - Railway.app → Deployment for backup
 - Cloudflare / Google Domains → Domain and DNS
 - Dr. Link Check → Links check
@@ -266,38 +405,38 @@ Setup options:
 ## Stage 3 → Frontend interaction
 
 - Status monitoring
-    - Pulsetic → ?
-    - Better Uptime → ?
-    - Instatus → ? 
+  - Pulsetic → ?
+  - Better Uptime → ?
+  - Instatus → ?
 - Form, input, text area
-    - Remix Form → for Remix
-    - React Hook Form → Complex client-side form library
-    - tiny-invariant → provide descriptive errors in development but generic errors in production.
-    - Tiptap / Typist / Lexical → Rich text editor
+  - Remix Form → for Remix
+  - React Hook Form → Complex client-side form library
+  - tiny-invariant → provide descriptive errors in development but generic errors in production.
+  - Tiptap / Typist / Lexical → Rich text editor
 - User and product analytics
-    - Google Analytics 4 → Most popular analytics
-    - Splitbee → Friendly analytics
-    - Posthog → Product analytics
-    - Pirsch → Beautiful analytics
-    - Plausible → Powerful analytics
-    - MixPanel → Simple analytics
+  - Google Analytics 4 → Most popular analytics
+  - Splitbee → Friendly analytics
+  - Posthog → Product analytics
+  - Pirsch → Beautiful analytics
+  - Plausible → Powerful analytics
+  - MixPanel → Simple analytics
 - App analytics and error reporting
-    - Sentry → App analytics and error tracking
-    - LogRocket → ?
-    - Metronome → Remix insights
+  - Sentry → App analytics and error tracking
+  - LogRocket → ?
+  - Metronome → Remix insights
 - Dependency monitoring
-    - DepFu → Common
-    - Snyk → Security
+  - DepFu → Common
+  - Snyk → Security
 - Feature toggle
-    - Growthbook → Feature flagging and experimentation
+  - Growthbook → Feature flagging and experimentation
 
 ## Stage 4 → Database, storage, and email
 
 - Prisma → ORM (Object Relational Mapper)
-    - Argon2 / bcrypt
+  - Argon2 / bcrypt
 - MySQL on PlanetScale → Relational database
 - PostgreSQL on Neon → Relational database
-    - Dashibase → Quick dashboard
+  - Dashibase → Quick dashboard
 - Snaplet → Development and backup
 - Arctype → SQL Client
 - X → Object storage
@@ -318,7 +457,7 @@ Setup options:
 
 - HTTPie &amp; Hoppscotch → API client
 - GraphQL → Data query and manipulation language for API
-    - Pothos → ?
+  - Pothos → ?
 - Nexus → ?
 - Axios → REST API client
 - urql → GraphQL client
@@ -335,9 +474,9 @@ Setup options:
 ## Stage 8 → CI/CD
 
 - GitHub Actions → Build checks
-    - (orang build)
-    - Changeset
-    - Codecov
+  - (orang build)
+  - Changeset
+  - Codecov
 - CodeFactor → Code review
 - Docker → Container
 
@@ -348,9 +487,9 @@ Setup options:
 ## Browser
 
 - Google Chrome —?
-    - uBlock Origin —?
-    - Bitwarden —?
-    - Raindrop —Bookmark management
+  - uBlock Origin —?
+  - Bitwarden —?
+  - Raindrop —Bookmark management
 - Brave Browser — ?
 - Microsoft Edge — ?
 - Mozilla Firefox — ?
@@ -367,21 +506,21 @@ Setup options:
 ## Utility
 
 - Credentials
-    - Bitwarden — ?
-    - Authy — ?
+  - Bitwarden — ?
+  - Authy — ?
 - Mac-related
-    - Raycast — Blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
-    - Maccy — macOS clipboard manager
-    - Numi — Beautiful calculator app for Mac
-    - Rectangle — Move and resize windows in macOS using keyboard shortcuts or snap areas
-    - Owly — ?
-    - Macs Fan Control— ?
-    - iStat Menus — ?
-    - KeyCastr — ?
-    - Cursor Pro — ?
+  - Raycast — Blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
+  - Maccy — macOS clipboard manager
+  - Numi — Beautiful calculator app for Mac
+  - Rectangle — Move and resize windows in macOS using keyboard shortcuts or snap areas
+  - Owly — ?
+  - Macs Fan Control— ?
+  - iStat Menus — ?
+  - KeyCastr — ?
+  - Cursor Pro — ?
 - Writing
-    - Grammarly — ?
-    - [QuillBot AI](https://quillbot.com/) — Paraphrasing Tool
+  - Grammarly — ?
+  - [QuillBot AI](https://quillbot.com/) — Paraphrasing Tool
 
 ## Multimedia
 
@@ -393,11 +532,11 @@ Setup options:
 ### External text
 
 - Gmail / Google Account ❤️⭐⭐⭐ — Access to Google services
-    - Google Calendar — ?
-    - Google Drive — ?
-    - YouTube — ?
+  - Google Calendar — ?
+  - Google Drive — ?
+  - YouTube — ?
 - HEY Email ❤️⭐⭐⭐⭐⭐ — ?
-    - [Hey Email + Google Calendar](https://merecivilian.com/heyhey/)
+  - [Hey Email + Google Calendar](https://merecivilian.com/heyhey/)
 - ProtonMail ⭐⭐ — ?
 - Superhuman ⭐⭐⭐ — The Fastest Email Experience Ever Made
 
@@ -433,10 +572,10 @@ Generally for tracking issue, feedback, roadmap, changelog, and time.
 - GitHub Issues ⭐⭐⭐⭐ — public issue tracking and management
 - Linear ⭐⭐⭐⭐⭐ — internal team issue tracking and management to handle the priority feature development.
 - Roadmap and changelog
-    - Productlane ⭐⭐⭐⭐ — Linear-based public roadmap, user feedback, and changelog
-    - Headwayapp — ?
-    - Canny — ?
-    - Productboard — ?
+  - Productlane ⭐⭐⭐⭐ — Linear-based public roadmap, user feedback, and changelog
+  - Headwayapp — ?
+  - Canny — ?
+  - Productboard — ?
 - Clockify ⭐⭐⭐ — The most popular free time tracker for teams
 
 ## Engineering management
@@ -486,56 +625,56 @@ Especially for profile pictures.
 ## Terminal, shell, prompt
 
 - Terminal app
-    - Universal
-        - [Alacritty](https://alacritty.org/) ⭐⭐⭐ — Cross-platform, OpenGL terminal emulator
-            - alacritty-themes CLI
-        - [Hyper™](https://hyper.is/) ⭐⭐⭐ — Terminal built on web technologies by Vercel
-    - Mac
-        - iTerm2 ⭐⭐ — ?
-        - Warp ⭐⭐ — ?
+  - Universal
+    - [Alacritty](https://alacritty.org/) ⭐⭐⭐ — Cross-platform, OpenGL terminal emulator
+      - alacritty-themes CLI
+    - [Hyper™](https://hyper.is/) ⭐⭐⭐ — Terminal built on web technologies by Vercel
+  - Mac
+    - iTerm2 ⭐⭐ — ?
+    - Warp ⭐⭐ — ?
 - Terminal shell
-    - zsh ⭐⭐⭐ — ?
-        - [Antibody](https://getantibody.github.io/) — Shell plugin manager made from the ground up thinking about performance.
+  - zsh ⭐⭐⭐ — ?
+    - [Antibody](https://getantibody.github.io/) — Shell plugin manager made from the ground up thinking about performance.
 - Terminal prompt
-    - Starship.rs ⭐⭐⭐ — Cross-Shell Prompt. The minimal, blazing-fast, and infinitely customizable prompt for any shell
+  - Starship.rs ⭐⭐⭐ — Cross-Shell Prompt. The minimal, blazing-fast, and infinitely customizable prompt for any shell
 - Terminal commands
-    - [asdf-vm/asdf](https://asdf-vm.com/) ⭐⭐⭐ —  Extendable version manager with support for Ruby, Node.js, Elixir, Erlang &amp; more. Manage multiple runtime versions with a single CLI tool
-    - [clvv/fasd](https://github.com/clvv/fasd)  ⭐⭐⭐ — Fasd (pronounced similar to &quot;fast&quot;) is a command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells. It is inspired by tools like autojump, z and v.
-    - [Volta](https://volta.sh/) ⭐⭐⭐ — The Hassle-Free JavaScript Tool Manager
+  - [asdf-vm/asdf](https://asdf-vm.com/) ⭐⭐⭐ — Extendable version manager with support for Ruby, Node.js, Elixir, Erlang &amp; more. Manage multiple runtime versions with a single CLI tool
+  - [clvv/fasd](https://github.com/clvv/fasd) ⭐⭐⭐ — Fasd (pronounced similar to &quot;fast&quot;) is a command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells. It is inspired by tools like autojump, z and v.
+  - [Volta](https://volta.sh/) ⭐⭐⭐ — The Hassle-Free JavaScript Tool Manager
 - Remote login
-    - OpenSSH — ?
+  - OpenSSH — ?
 
 ## Code management, version control, auto-merge
 
 - Git ❤️⭐⭐⭐ — the most popular version control
-    - diff-so-fancy — ?
-    - [Conventional Commit](https://www.conventionalcommits.org/) — Specification for adding human and machine readable meaning to commit messages
-    - [Release Please](https://github.com/googleapis/release-please) — Automates CHANGELOG generation, the creation of GitHub releases, and version bumps for your projects.
+  - diff-so-fancy — ?
+  - [Conventional Commit](https://www.conventionalcommits.org/) — Specification for adding human and machine readable meaning to commit messages
+  - [Release Please](https://github.com/googleapis/release-please) — Automates CHANGELOG generation, the creation of GitHub releases, and version bumps for your projects.
 - GitHub ❤️⭐⭐⭐ — the best Git hosting on the planet
-    - Refined GitHub ⭐⭐⭐ — ?
-    - [DevHub](https://devhubapp.com/) ⭐⭐⭐ — Desktop GitHub Notifications &amp; Activities
-    - [Neat](https://neat.run/) ⭐ — Supercharge your GitHub workflow
+  - Refined GitHub ⭐⭐⭐ — ?
+  - [DevHub](https://devhubapp.com/) ⭐⭐⭐ — Desktop GitHub Notifications &amp; Activities
+  - [Neat](https://neat.run/) ⭐ — Supercharge your GitHub workflow
 - Git tools
-    - degit ⭐ — Straightforward project scaffolding, to the info in README
-    - GitFlow — structured branching model and workflow for Git
-    - PR auto-merge
-        - Kodiak ⭐
-        - Mergify ⭐
+  - degit ⭐ — Straightforward project scaffolding, to the info in README
+  - GitFlow — structured branching model and workflow for Git
+  - PR auto-merge
+    - Kodiak ⭐
+    - Mergify ⭐
 - Doppler ❤️⭐⭐⭐ — Universal Secrets Platform
 - [Plop](https://plopjs.com/) — Consistency Made Simple. Little tool that saves you time and helps your team build new files with consistency
 - Repository, document, versioning, contributing
-    - [Semantic Versioning (semver)](https://semver.org/) ⭐⭐⭐⭐⭐ — set of rules and requirements that dictate how version numbers are assigned and incremented
-    - [Semantic Release (semantic-release)](https://semantic-release.gitbook.io/semantic-release/) ⭐⭐⭐⭐ — Fully automated version management and package publishing
-    - [Standard Readme](https://github.com/RichardLitt/standard-readme) ⭐⭐⭐⭐ — standard style for README files
-    - [Contributor Covenant](https://www.contributor-covenant.org/) — A Code of Conduct for Open Source and Other Digital Commons Communities
+  - [Semantic Versioning (semver)](https://semver.org/) ⭐⭐⭐⭐⭐ — set of rules and requirements that dictate how version numbers are assigned and incremented
+  - [Semantic Release (semantic-release)](https://semantic-release.gitbook.io/semantic-release/) ⭐⭐⭐⭐ — Fully automated version management and package publishing
+  - [Standard Readme](https://github.com/RichardLitt/standard-readme) ⭐⭐⭐⭐ — standard style for README files
+  - [Contributor Covenant](https://www.contributor-covenant.org/) — A Code of Conduct for Open Source and Other Digital Commons Communities
 
 ## Code editor
 
 - VS Code — ?
-    - VS Code Preferences
-    - VS Code Themes
-    - VS Code Extensions
-        - [dsznajder/vscode-react-javascript-snippets](https://github.com/dsznajder/vscode-react-javascript-snippets)
+  - VS Code Preferences
+  - VS Code Themes
+  - VS Code Extensions
+    - [dsznajder/vscode-react-javascript-snippets](https://github.com/dsznajder/vscode-react-javascript-snippets)
 - NeoVim — ?
 - StackBlitz — ?
 - CodeSandbox — ?
@@ -546,21 +685,21 @@ Especially for profile pictures.
 - JavaScript — ?
 - Node.js — ?
 - npm — ?
-    - Yarn — ?
-    - pnpm — Fast, disk space efficient package manager
-    - Openbase — ?
+  - Yarn — ?
+  - pnpm — Fast, disk space efficient package manager
+  - Openbase — ?
 
 ## Configuration, formatter, linter
 
 - EditorConfig ⭐⭐⭐ — ?
 - Prettier ⭐⭐⭐⭐⭐ — ?
 - ESLint ⭐⭐⭐⭐⭐ — ?
-    - eslint-config-airbnb
-    - @remix-run/eslint-config
-    - prettier-eslint
-    - eslint-plugin-tailwindcss
+  - eslint-config-airbnb
+  - @remix-run/eslint-config
+  - prettier-eslint
+  - eslint-plugin-tailwindcss
 - [Stylelint](https://stylelint.io/) ⭐⭐⭐⭐⭐ — A mighty, modern linter that helps you avoid errors and enforce conventions in your styles
-    - stylelint-config-prettier
+  - stylelint-config-prettier
 - [ls-lint](https://ls-lint.org/) ⭐⭐⭐⭐⭐— File name linter
 - commitlint ⭐⭐⭐— Commit message linter
 
@@ -589,13 +728,13 @@ Especially for profile pictures.
 ## UI, UX, and graphic design
 
 - Figma ⭐⭐⭐ — The collaborative interface design tool
-    - Typescale — Harmonious typographic scales, directly from your design tool
-    - Figma Tokens — ?
+  - Typescale — Harmonious typographic scales, directly from your design tool
+  - Figma Tokens — ?
 - [Lunacy](https://icons8.com/lunacy) ⭐⭐⭐ — Free Design Software for Win, Mac, Linux
 - Framer ⭐⭐⭐ —
 - InVision ⭐⭐ —
-- Sketch ⭐⭐ — 
-- Penpot ⭐⭐ — 
+- Sketch ⭐⭐ —
+- Penpot ⭐⭐ —
 
 ## Asset colors
 
@@ -613,16 +752,16 @@ Especially for profile pictures.
 ## Frontend/web app framework
 
 - React ⭐⭐⭐⭐⭐ — UI library/framework
-    - TSX/TypeScript — ?
-    - JSX/JavaScript — ?
-    - HTML — ?
-    - CSS — ?
+  - TSX/TypeScript — ?
+  - JSX/JavaScript — ?
+  - HTML — ?
+  - CSS — ?
 - React Native ⭐⭐⭐ — ?
-    - Expo ⭐ — ?
+  - Expo ⭐ — ?
 
 ## Frontend routing
 
-- React Router — ? 
+- React Router — ?
 - TanStack Location — ?
 - [wouter](https://github.com/molefrog/wouter) — ?
 
@@ -630,7 +769,7 @@ Especially for profile pictures.
 
 - esbuild — ?
 - Vite — ?
-    - [vite-plugin-ssr](https://vite-plugin-ssr.com/) — ?
+  - [vite-plugin-ssr](https://vite-plugin-ssr.com/) — ?
 - Turbopack — ?
 - Webpack — ?
 - Babel — ?
@@ -640,25 +779,25 @@ Especially for profile pictures.
 ## Full-stack web app framework
 
 - Remix ❤️⭐⭐⭐⭐⭐ — ?
-    - esbuild as bundler — ?
+  - esbuild as bundler — ?
 - Remix Packages
-    - React Router v6 — ?
-        - history — ?
-        - query-string — ?
-        - qs — ?
-    - remix-seo ❤️⭐ — 
-    - remix-pwa ❤️⭐ — PWA integration &amp; support for Remix
-    - remix-utils ⭐ — 
-    - remix-themes ⭐ — An abstraction for themes in your Remix app.
-    - remix-auth ⭐ — inspired by Passport
-    - [remix-i18next](https://github.com/sergiodxa/remix-i18next) — The easiest way to translate your Remix apps
-    - remix-image — ?
-    - remix-forms — ?
-    - remix-tailwind — research first
-    - remix-query ⭐ — Keep your loader data in sync in your component without reloading the page
+  - React Router v6 — ?
+    - history — ?
+    - query-string — ?
+    - qs — ?
+  - remix-seo ❤️⭐ —
+  - remix-pwa ❤️⭐ — PWA integration &amp; support for Remix
+  - remix-utils ⭐ —
+  - remix-themes ⭐ — An abstraction for themes in your Remix app.
+  - remix-auth ⭐ — inspired by Passport
+  - [remix-i18next](https://github.com/sergiodxa/remix-i18next) — The easiest way to translate your Remix apps
+  - remix-image — ?
+  - remix-forms — ?
+  - remix-tailwind — research first
+  - remix-query ⭐ — Keep your loader data in sync in your component without reloading the page
 - Next.js — ?
-    - NextAuth.js — ?
-    - Outstatic — A Static Site CMS for Next.js
+  - NextAuth.js — ?
+  - Outstatic — A Static Site CMS for Next.js
 - RedwoodJS — ?
 
 ## Styling and design system
@@ -677,15 +816,15 @@ Template, starter kit, or boilerplate:
 ### Pure styling options
 
 - Tailwind CSS ❤️⭐⭐⭐⭐⭐ — A utility-first CSS framework for rapid UI development
-    - [UI Colors](https://uicolors.app) — Tailwind CSS Color Shades Generator &amp; Editor
-    - PostCSS — CSS transformer
-    - @tailwindcss/typography
-    - @tailwindcss/forms
-    - @tailwindcss/line-clamp
-    - @tailwindcss/aspect-ratio
+  - [UI Colors](https://uicolors.app) — Tailwind CSS Color Shades Generator &amp; Editor
+  - PostCSS — CSS transformer
+  - @tailwindcss/typography
+  - @tailwindcss/forms
+  - @tailwindcss/line-clamp
+  - @tailwindcss/aspect-ratio
 - UnoCSS ⭐⭐⭐ — ?
-    - It's actually better than Tailwind, just the ecosystem is still new, like there is no editor plugin yet
-- [Master CSS](https://css.master.co/) ⭐⭐⭐  — A Virtual CSS language with enhanced syntax. Efficiently build your UI and design system with HTML only.
+  - It's actually better than Tailwind, just the ecosystem is still new, like there is no editor plugin yet
+- [Master CSS](https://css.master.co/) ⭐⭐⭐ — A Virtual CSS language with enhanced syntax. Efficiently build your UI and design system with HTML only.
 
 ### Variant components
 
@@ -695,60 +834,60 @@ Template, starter kit, or boilerplate:
 
 - Headless UI ❤️⭐⭐⭐⭐ — Unstyled, fully accessible UI components
 - Radix UI ❤️⭐⭐⭐⭐ — Accessible component system that replicate most Headless UI components
-    - @radix-ui/react-scroll-area
+  - @radix-ui/react-scroll-area
 - Reach UI — ?
 - Ariakit — ?
 - Downshift — ?
 - React Select — ?
 - [TanStack Table v8](https://tanstack.com/table/v8) / React Table — Headless UI for building powerful tables &amp; datagrids
 - Tailwind components
-    - Tailwind UI ⭐ — Beautiful UI components
-        - Only for references, as VechaiUI and daisyUI provide a more organized UIs
-    - daisyUI — Tailwind CSS Components
-    - Vechai UI ❤️⭐⭐⭐ — React Tailwind CSS Components
-    - [Tailblocks](https://tailblocks.cc/) — ?
-    - Hyper UI — ?
-    - Tail-kit / tailwind-kit.com
-    - tailwindcomponents.com
-    - kitwind.io
-    - tailblocks.co
-    - merakiui.com
-    - tailwindtoolbox.com
+  - Tailwind UI ⭐ — Beautiful UI components
+    - Only for references, as VechaiUI and daisyUI provide a more organized UIs
+  - daisyUI — Tailwind CSS Components
+  - Vechai UI ❤️⭐⭐⭐ — React Tailwind CSS Components
+  - [Tailblocks](https://tailblocks.cc/) — ?
+  - Hyper UI — ?
+  - Tail-kit / tailwind-kit.com
+  - tailwindcomponents.com
+  - kitwind.io
+  - tailblocks.co
+  - merakiui.com
+  - tailwindtoolbox.com
 
 ### Styled components
 
 - Stitches ⭐⭐ — CSS-in-JS library and theming solution
-    - Performant and can customize variants easily
-    - Replace emotion and styled-components
-    - Can extract Tailwind CSS config into Stitches config
-    - Replicate most Tailwind UI components
-    - Can implement multiple themes than just light and dark mode
+  - Performant and can customize variants easily
+  - Replace emotion and styled-components
+  - Can extract Tailwind CSS config into Stitches config
+  - Replicate most Tailwind UI components
+  - Can implement multiple themes than just light and dark mode
 - emotion — ?
 - styled-components — ?
 
 ### Misc
 
 - Radix Colors ⭐⭐— accessible color system with light and dark theme
-    - Only when using Radix UI and Stitches together
-    - Not when using Tailwind CSS
+  - Only when using Radix UI and Stitches together
+  - Not when using Tailwind CSS
 - Existing design system and components for inspirations
-    - NextUI ⭐⭐⭐ — for UI components based on Stitches
-    - Chakra UI ⭐⭐⭐ — for flexible UI components
-    - Mantine — for complex ready to use components
-    - NativeBase — ?
-    - UI Kitten— ?
-    - React Native Elements— ?
-    - Eva Design System — Deep learning color generator
+  - NextUI ⭐⭐⭐ — for UI components based on Stitches
+  - Chakra UI ⭐⭐⭐ — for flexible UI components
+  - Mantine — for complex ready to use components
+  - NativeBase — ?
+  - UI Kitten— ?
+  - React Native Elements— ?
+  - Eva Design System — Deep learning color generator
 
 ## Data fetching
 
 - Remix built-in loader and action with fetch
-- [Axios HTTP](https://axios-http.com/) ⭐⭐⭐ — Promise based HTTP client for the browser and Node.js 
+- [Axios HTTP](https://axios-http.com/) ⭐⭐⭐ — Promise based HTTP client for the browser and Node.js
 - [urql](https://formidable.com/open-source/urql/) ❤️⭐⭐⭐ — &quot;Universal React Query Library&quot; is a blazing-fast minimal GraphQL client. The highly customizable and versatile GraphQL client for React, Svelte, Vue, or JavaScript.
-    - Can perform in Remix Loader
-    - Can replace graphql-request or Apollo
+  - Can perform in Remix Loader
+  - Can replace graphql-request or Apollo
 - graphql-request ⭐ — GraphQL client
-    - Only when urql is too much
+  - Only when urql is too much
 - [SWR](https://swr.vercel.app/) — React Hooks for Data Fetching
 - TanStack Query / React Query — ?
 
@@ -760,12 +899,12 @@ Template, starter kit, or boilerplate:
 ## Frontend hosting
 
 - Vercel ❤️⭐⭐⭐⭐ —
-    - not free for organizations but free for personal and the fastest out there.
-    - [https://vercel.com/changelog/remix-projects-can-now-be-deployed-with-zero-configuration](https://vercel.com/changelog/remix-projects-can-now-be-deployed-with-zero-configuration)
+  - not free for organizations but free for personal and the fastest out there.
+  - [https://vercel.com/changelog/remix-projects-can-now-be-deployed-with-zero-configuration](https://vercel.com/changelog/remix-projects-can-now-be-deployed-with-zero-configuration)
 - Netlify ❤️⭐⭐⭐⭐ — ?
 - Cloudflare Pages ⭐⭐⭐ — ?
-    - Free for organizations but slightly slower than Vercel. A bit harder to debug because they don't really use Node.js
-    - [https://blog.cloudflare.com/remix-on-cloudflare-pages](https://blog.cloudflare.com/remix-on-cloudflare-pages/)
+  - Free for organizations but slightly slower than Vercel. A bit harder to debug because they don't really use Node.js
+  - [https://blog.cloudflare.com/remix-on-cloudflare-pages](https://blog.cloudflare.com/remix-on-cloudflare-pages/)
 - Cloudflare Workers ⭐⭐ — ?
 
 ## Frontend tools
@@ -775,102 +914,102 @@ Template, starter kit, or boilerplate:
 ## Frontend library
 
 - Hooks
-    - usehooks-ts — ?
+  - usehooks-ts — ?
 - Forms
-    - React Hook Form — ?
-    - Formik — ?
-    - React Final Form — ?
+  - React Hook Form — ?
+  - Formik — ?
+  - React Final Form — ?
 - Icons
-    - [Icônes](https://icones.js.org/) — Icon Explorer with Instant searching, powered by Iconify
-    - Iconify ❤️⭐⭐⭐⭐⭐ — ?
-    - React Icons ❤️⭐⭐⭐ — ?
-    - Phosphor Icons ❤️⭐⭐⭐  — ?
-    - Remix Icon ⭐⭐ — ?
-    - Feather Icons ⭐⭐ — ?
-    - Boxicons ⭐ — ?
-    - Ionicons ⭐ — ?
-    - Font Awesome ⭐ — ?
-    - Game Icons — ?
-    - Simple Icons — 2000+ Free SVG icons for popular brands
+  - [Icônes](https://icones.js.org/) — Icon Explorer with Instant searching, powered by Iconify
+  - Iconify ❤️⭐⭐⭐⭐⭐ — ?
+  - React Icons ❤️⭐⭐⭐ — ?
+  - Phosphor Icons ❤️⭐⭐⭐ — ?
+  - Remix Icon ⭐⭐ — ?
+  - Feather Icons ⭐⭐ — ?
+  - Boxicons ⭐ — ?
+  - Ionicons ⭐ — ?
+  - Font Awesome ⭐ — ?
+  - Game Icons — ?
+  - Simple Icons — 2000+ Free SVG icons for popular brands
 - Component documentation
-    - Storybook ⭐⭐⭐⭐⭐ — component management
-    - Bit.dev — ?
+  - Storybook ⭐⭐⭐⭐⭐ — component management
+  - Bit.dev — ?
 - Markdown
-    - [Markdoc](https://markdoc.io/) ⭐⭐⭐⭐ — A powerful, flexible, Markdown-based authoring framework
-    - MDX / [mdxjs](https://mdxjs.com/) — Markdown for the component era
-    - [marked](https://marked.js.org/) ⭐⭐⭐ — ?
-    - [remark](https://remark.js.org/) — ?
-    - [markdown-to-jsx](https://github.com/probablyup/markdown-to-jsx) ⭐⭐⭐ — ?
-    - [markdown-it](https://markdown-it.github.io/) — ?
-    - [html-react-parser](https://github.com/remarkablemark/html-react-parser) — ?
+  - [Markdoc](https://markdoc.io/) ⭐⭐⭐⭐ — A powerful, flexible, Markdown-based authoring framework
+  - MDX / [mdxjs](https://mdxjs.com/) — Markdown for the component era
+  - [marked](https://marked.js.org/) ⭐⭐⭐ — ?
+  - [remark](https://remark.js.org/) — ?
+  - [markdown-to-jsx](https://github.com/probablyup/markdown-to-jsx) ⭐⭐⭐ — ?
+  - [markdown-it](https://markdown-it.github.io/) — ?
+  - [html-react-parser](https://github.com/remarkablemark/html-react-parser) — ?
 - Code syntax highlighting
-    - Prism.js ⭐⭐⭐⭐⭐ —?
-        - Prism React Renderer — ?
-    - highlight.js ⭐⭐⭐ — ?
-        - React Syntax Highlighter —?
-    - [Shiki](https://shiki.matsu.io/) ⭐⭐⭐ — ?
+  - Prism.js ⭐⭐⭐⭐⭐ —?
+    - Prism React Renderer — ?
+  - highlight.js ⭐⭐⭐ — ?
+    - React Syntax Highlighter —?
+  - [Shiki](https://shiki.matsu.io/) ⭐⭐⭐ — ?
 - Markdown documentation generator
-    - Nextra — ?
-    - Slate — ?
+  - Nextra — ?
+  - Slate — ?
 - Emoji
-    - Twemoji &amp; react-twemoji ⭐⭐⭐ — ?
-    - OpenMoji — ?
+  - Twemoji &amp; react-twemoji ⭐⭐⭐ — ?
+  - OpenMoji — ?
 - Rich text editor / WYIWYG editor
-    - [Tiptap](https://tiptap.dev/) ❤️⭐⭐⭐⭐⭐ — Headless WYSIWYG Text Editor
-        - [Typist](https://typist.doist.dev/) ❤️⭐⭐⭐⭐⭐ — Rich Editor based on Tiptap
-    - [Quill.js](https://quilljs.com/) ❤️⭐⭐⭐ — Your powerful rich text editor
-    - [Lexical](https://lexical.dev/) ❤️⭐⭐⭐ — An extensible text editor framework that does things differently
-    - Jodit ⭐ — ?
-    - Slate.js ⭐— ?
+  - [Tiptap](https://tiptap.dev/) ❤️⭐⭐⭐⭐⭐ — Headless WYSIWYG Text Editor
+    - [Typist](https://typist.doist.dev/) ❤️⭐⭐⭐⭐⭐ — Rich Editor based on Tiptap
+  - [Quill.js](https://quilljs.com/) ❤️⭐⭐⭐ — Your powerful rich text editor
+  - [Lexical](https://lexical.dev/) ❤️⭐⭐⭐ — An extensible text editor framework that does things differently
+  - Jodit ⭐ — ?
+  - Slate.js ⭐— ?
 - Animation library
-    - [AutoAnimate](https://auto-animate.formkit.com/) — Add motion to your apps with a single line of code
-    - Framer Motion ⭐ — animated component
-    - react-spring — ?
-    - anime.js — ?
-    - Velocity.js — ?
+  - [AutoAnimate](https://auto-animate.formkit.com/) — Add motion to your apps with a single line of code
+  - Framer Motion ⭐ — animated component
+  - react-spring — ?
+  - anime.js — ?
+  - Velocity.js — ?
 - Gesture and drag and dop library
-    - [use-gesture](https://use-gesture.netlify.app/) — ?
-    - [dnd kit](https://dndkit.com/) — dnd kit – a modern drag and drop toolkit for React
+  - [use-gesture](https://use-gesture.netlify.app/) — ?
+  - [dnd kit](https://dndkit.com/) — dnd kit – a modern drag and drop toolkit for React
 - Charting library
-    - D3.js — ?
-    - Vega — ?
+  - D3.js — ?
+  - Vega — ?
 - Diagramming library
-    - D2 — ?
-        - Text to diagram — ?
-    - MermaidJS — ?
-    - PlantUML — ?
-    - Graphviz — ?
+  - D2 — ?
+    - Text to diagram — ?
+  - MermaidJS — ?
+  - PlantUML — ?
+  - Graphviz — ?
 - 2D and 3D engine
-    - [Matter.js](https://brm.io/matter-js/) — 2D physics engine for the web
-    - [Three.js](https://threejs.org/) — JavaScript 3D Library based on WebGL
-    - [GreenSock](https://greensock.com/) — GSAP (GreenSock Animation Platform) — Professional-grade animation for the modern web
+  - [Matter.js](https://brm.io/matter-js/) — 2D physics engine for the web
+  - [Three.js](https://threejs.org/) — JavaScript 3D Library based on WebGL
+  - [GreenSock](https://greensock.com/) — GSAP (GreenSock Animation Platform) — Professional-grade animation for the modern web
 - Parallax library — [https://openbase.com/categories/js/best-react-parallax-libraries](https://openbase.com/categories/js/best-react-parallax-libraries)
-    - react-parallax
-    - simpleParallax.js — a JavaScript library for parallax effects
-    - parallax.js — ?
+  - react-parallax
+  - simpleParallax.js — a JavaScript library for parallax effects
+  - parallax.js — ?
 - Slide deck
-    - [slidev](https://sli.dev/) — Presentation Slides for Developers
-    - [Gamma](https://gamma.app/) — Write like a doc Present like a deck
+  - [slidev](https://sli.dev/) — Presentation Slides for Developers
+  - [Gamma](https://gamma.app/) — Write like a doc Present like a deck
 - Video creation
-    - [Remotion](https://www.remotion.dev/) — Write videos in React
+  - [Remotion](https://www.remotion.dev/) — Write videos in React
 - Keyboard shortcuts
-    - [kbar](https://kbar.vercel.app/) — command+k interface for your site
-    - CommandBar ⭐⭐⭐ — ?
+  - [kbar](https://kbar.vercel.app/) — command+k interface for your site
+  - CommandBar ⭐⭐⭐ — ?
 - Maps
-    - Mapbox
-    - react-map-gl — Mapbox GL JS for React
+  - Mapbox
+  - react-map-gl — Mapbox GL JS for React
 - Math typesetting
-    - [KaTeX](https://katex.org/) — The fastest math typesetting library for the web
+  - [KaTeX](https://katex.org/) — The fastest math typesetting library for the web
 - Files and images
-    - Filepond — ?
-    - Pintura Image Editor — ?
+  - Filepond — ?
+  - Pintura Image Editor — ?
 - Slide or carousel
-    - [Swiper](https://swiperjs.com/) — The Most Modern Mobile Touch Slider or Carousel
+  - [Swiper](https://swiperjs.com/) — The Most Modern Mobile Touch Slider or Carousel
 - Blockchain and web3
-    - RainbowKit — ?
+  - RainbowKit — ?
 - Others
-    - react-device-detect — Detect device, and render view according to detected device type
-    - react-responsive — CSS media queries in React for responsive design, and more
+  - react-device-detect — Detect device, and render view according to detected device type
+  - react-responsive — CSS media queries in React for responsive design, and more
 
 ## Frontend state management
 
@@ -885,17 +1024,17 @@ Template, starter kit, or boilerplate:
 - Shottr — ?
 - [CleanShot X](https://cleanshot.com/) — ?
 - Image optimizer
-    - TinyPNG/TinyJPG ⭐⭐⭐⭐⭐ — Compress multiple WebP, PNG, and JPEG images intelligently
-    - Squoosh ⭐⭐⭐ — Make images smaller using best-in-class codecs, right in the browser
+  - TinyPNG/TinyJPG ⭐⭐⭐⭐⭐ — Compress multiple WebP, PNG, and JPEG images intelligently
+  - Squoosh ⭐⭐⭐ — Make images smaller using best-in-class codecs, right in the browser
 - Favicons
-    - [Favicon.io](https://favicon.io/favicon-converter/) — The best Favicon Generator (completely free)
-    - [Real Favicon Generator](https://realfavicongenerator.net/) — ?
+  - [Favicon.io](https://favicon.io/favicon-converter/) — The best Favicon Generator (completely free)
+  - [Real Favicon Generator](https://realfavicongenerator.net/) — ?
 - [Open Peeps](https://www.openpeeps.com/) — Hand-Drawn Illustration Library
 - [Descript](https://www.descript.com/) — All-in-one audio/video editing, as easy as a doc.
 - [Bannerbear](https://www.bannerbear.com/) — API for Automated Image and Video Generation
-    - neg4n/next-api-og-image — ?
+  - neg4n/next-api-og-image — ?
 - [Senja](https://senja.io/) — The #1 Tool to Collect, Manage &amp; Share Testimonials
-    - [Testimonial.to](https://testimonial.to/) - Collect and embed testimonials in minutes
+  - [Testimonial.to](https://testimonial.to/) - Collect and embed testimonials in minutes
 
 ---
 
@@ -913,8 +1052,8 @@ Template, starter kit, or boilerplate:
 ## Backend/web server frameworks
 
 - Express.js ⭐⭐⭐⭐⭐ — ?
-    - cors — ?
-    - morgan — ?
+  - cors — ?
+  - morgan — ?
 - Fastify ⭐⭐⭐ — ?
 - tinyhttp ⭐ — 0-legacy, tiny &amp; fast web framework as a replacement of Express
 - NestJS ⭐ — ?
@@ -925,35 +1064,35 @@ Template, starter kit, or boilerplate:
 ## Web API
 
 - GraphQL ⭐⭐⭐⭐⭐ — ?
-    - Internal GraphQL for most dynamic data management. Because even big techs are using it (Shopify, Github, Medium, Docker, Twitter, Airbnb, and Paypal)
-    - GraphQL Code Generator ⭐ — ?
-    - GraphCDN ⭐ — ?
-    - Nexus GraphQL ⭐ — ?
-    - [Apollo GraphQL](https://www.apollographql.com/) ⭐ — Supergraph: unify APIs, microservices, and databases in a composable graph. Unifies GraphQL across your apps and services, unlocking faster delivery for your engineering teams.
+  - Internal GraphQL for most dynamic data management. Because even big techs are using it (Shopify, Github, Medium, Docker, Twitter, Airbnb, and Paypal)
+  - GraphQL Code Generator ⭐ — ?
+  - GraphCDN ⭐ — ?
+  - Nexus GraphQL ⭐ — ?
+  - [Apollo GraphQL](https://www.apollographql.com/) ⭐ — Supergraph: unify APIs, microservices, and databases in a composable graph. Unifies GraphQL across your apps and services, unlocking faster delivery for your engineering teams.
 - REST API ⭐⭐⭐ — ?
-    - Still needed in case of an alternative or public API release
+  - Still needed in case of an alternative or public API release
 - tRPC — ?
 - gRPC — ?
-    - Only when there is a budget and performance issue
+  - Only when there is a budget and performance issue
 - WebSocket — ?
-    - Socket.io — ?
-    - [soketi](https://soketi.app/) — Simple, fast, and resilient open-source WebSockets server. 📣
-    - [LiveBlocks](https://liveblocks.io/) — ?
+  - Socket.io — ?
+  - [soketi](https://soketi.app/) — Simple, fast, and resilient open-source WebSockets server. 📣
+  - [LiveBlocks](https://liveblocks.io/) — ?
 - Client
-    - Hoppscotch ⭐⭐⭐⭐⭐ — API client for REST API and GraphQL
-    - Postman — ?
-    - Insomnia — ?
-    - Paw — The most advanced API tool for Mac
+  - Hoppscotch ⭐⭐⭐⭐⭐ — API client for REST API and GraphQL
+  - Postman — ?
+  - Insomnia — ?
+  - Paw — The most advanced API tool for Mac
 
 ## Backend as a Service (BaaS) and CMS
 
 ### All in One
 
 - Airtable — ?
-    - All purpose database
-    - Form
-    - CRM
-    - ATS, Applicant Tracker
+  - All purpose database
+  - Form
+  - CRM
+  - ATS, Applicant Tracker
 
 ### Simple Form
 
@@ -965,9 +1104,9 @@ Template, starter kit, or boilerplate:
 ### Backend with Auth
 
 - Firebase ⭐⭐ — ?
-    - Rowy — Low-code backend on Google Cloud and Firebase. Instant Airtable-like UI for managing your database on your own cloud.
+  - Rowy — Low-code backend on Google Cloud and Firebase. Instant Airtable-like UI for managing your database on your own cloud.
 - [Supabase](https://supabase.com/) ⭐⭐⭐ — The Open Source Firebase Alternative
-    - [Dashibase](https://dashibase.com/) ⭐⭐⭐ — No-code dashboards with Supabase
+  - [Dashibase](https://dashibase.com/) ⭐⭐⭐ — No-code dashboards with Supabase
 - Nhost — ?
 - Strapi — ?
 - Kontenbase — Easily create backend API, auth, and storage in less than one minute without coding.
@@ -992,12 +1131,12 @@ Template, starter kit, or boilerplate:
 - [Basedash](https://www.basedash.com/) ⭐ — Collaborative Database Editing
 - [Appsmith](https://www.appsmith.com/) ⭐ — Build &amp; self-host internal tools
 - [Metabase](https://metabase.com/) — ?
-    - The backend written in Clojure which contains a REST API
+  - The backend written in Clojure which contains a REST API
 
 ## Database ORM
 
 - Prisma ORM ⭐⭐⭐ — ?
-    - [Prismaliser](https://prismaliser.app/) — ?
+  - [Prismaliser](https://prismaliser.app/) — ?
 - Sequelize — ?
 - TypeORM — ?
 - Bookshelf.js — ?
@@ -1006,26 +1145,26 @@ Template, starter kit, or boilerplate:
 ## Database Management System (DBMS)
 
 - MySQL ⭐⭐⭐⭐ — ?
-    - MySQL on PlanetScale ⭐⭐⭐⭐⭐ — ?
+  - MySQL on PlanetScale ⭐⭐⭐⭐⭐ — ?
 - PostgreSQL ⭐⭐⭐⭐ — ?
-    - Postgres.app for Mac ⭐⭐⭐⭐⭐ — ?
-    - PostgreSQL on Railway.app ⭐⭐⭐⭐⭐ — ?
-    - PostgreSQL on Render ⭐⭐ — ?
+  - Postgres.app for Mac ⭐⭐⭐⭐⭐ — ?
+  - PostgreSQL on Railway.app ⭐⭐⭐⭐⭐ — ?
+  - PostgreSQL on Render ⭐⭐ — ?
 - Redis — ?
-    - Redis on Upstash ⭐⭐⭐⭐ — ?
-    - Redis on Railway.app ⭐⭐⭐ — ?
-    - Redis on Render — ?
-    - RedisInsight — ?
+  - Redis on Upstash ⭐⭐⭐⭐ — ?
+  - Redis on Railway.app ⭐⭐⭐ — ?
+  - Redis on Render — ?
+  - RedisInsight — ?
 - CockroachDB ⭐⭐⭐ — ?
 - MongoDB ⭐⭐⭐ — ?
-    - Realm — ?
+  - Realm — ?
 - [SurrealDB](https://surrealdb.com/) ⭐⭐ — ?
 - Snaplet — ?
 
 ## Data Stream
 
 - Kafka — ?
-    - Kafka on Upstash — ?
+  - Kafka on Upstash — ?
 - Fluvio — ?
 
 ## Database Client
@@ -1043,7 +1182,7 @@ Template, starter kit, or boilerplate:
 
 - Railway.app ⭐⭐⭐⭐⭐ — ?
 - [Render.com](https://render.com/) ⭐⭐⭐ — Cloud Application Hosting for Developers
-    - Need to check if compatible with Remix
+  - Need to check if compatible with Remix
 - [Buddy.works](https://buddy.works/) — The easiest CI/CD. Ever. Buddy is the most effective way to build better apps faster. The DevOps Automation Platform
 - Fly.io — ?
 - Heroku — ?
@@ -1053,28 +1192,28 @@ Template, starter kit, or boilerplate:
 
 ## Backend library
 
-- [geoip-lite/node-geoip](https://github.com/geoip-lite/node-geoip) — Native Node.js implementation of MaxMind's GeoIP API 
+- [geoip-lite/node-geoip](https://github.com/geoip-lite/node-geoip) — Native Node.js implementation of MaxMind's GeoIP API
 
 ## Backend storage for static assets
 
 Includes object storage, block storage, file storage, archive storage, and data transport.
 
 - Images
-    - Gravatar — ?
-    - ImageKit ⭐ — ?
+  - Gravatar — ?
+  - ImageKit ⭐ — ?
 - Videos
-    - muse.ai ⭐ — The power of video made simple for you
-    - VdoCipher — Secure Video Hosting for Business
-    - bunny.net — The Content Delivery platform that truly Hops!
+  - muse.ai ⭐ — The power of video made simple for you
+  - VdoCipher — Secure Video Hosting for Business
+  - bunny.net — The Content Delivery platform that truly Hops!
 - Anything
-    - Cloudinary — ?
-    - Google Cloud Storage — ?
-    - Amazon S3 — ?
-    - Azure Blob Storage — ?
-    - Vultr Object Storage — ?
-    - Linode Object Storage — ?
-    - [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces) — S3-Compatible Cloud Object Storage
-    - Wasabi Cloud Storage — ?
+  - Cloudinary — ?
+  - Google Cloud Storage — ?
+  - Amazon S3 — ?
+  - Azure Blob Storage — ?
+  - Vultr Object Storage — ?
+  - Linode Object Storage — ?
+  - [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces) — S3-Compatible Cloud Object Storage
+  - Wasabi Cloud Storage — ?
 
 ## Backend service
 
@@ -1098,9 +1237,9 @@ Especially for background process.
 ## Unit and Functional
 
 - Vitest ⭐⭐⭐⭐ — ?
-    - happy-dom — ?
+  - happy-dom — ?
 - Jest ⭐⭐⭐ — ?
-    - Jest Preview — ?
+  - Jest Preview — ?
 - React Testing Library ⭐⭐ — ?
 
 ## Functional
@@ -1124,33 +1263,33 @@ Especially for background process.
 ## Network
 
 - Cloudflare Registrar ⭐ — ?
-    - Migrated from Uniregistry/GoDaddy
+  - Migrated from Uniregistry/GoDaddy
 - Cloudflare DNS ⭐ — ?
 
 ## Payment and finance 💰
 
 - International
-    - Outseta ❤️⭐⭐⭐⭐ — ? 
-    - Paddle ❤️⭐⭐⭐⭐ — ?
-        - [https://snappify.io/blog/step-by-step-guide-for-paddle-integration](https://snappify.io/blog/step-by-step-guide-for-paddle-integration)
-    - Quaderno ⭐⭐⭐ — ?
-    - Stripe ⭐⭐⭐ — ?
-        - Recurly — ?
-    - Gumroad ⭐ — ?
-    - Flurly ⭐ — ?
-    - PayPal ⭐ — ?
-    - Plaid — ?
+  - Outseta ❤️⭐⭐⭐⭐ — ?
+  - Paddle ❤️⭐⭐⭐⭐ — ?
+    - [https://snappify.io/blog/step-by-step-guide-for-paddle-integration](https://snappify.io/blog/step-by-step-guide-for-paddle-integration)
+  - Quaderno ⭐⭐⭐ — ?
+  - Stripe ⭐⭐⭐ — ?
+    - Recurly — ?
+  - Gumroad ⭐ — ?
+  - Flurly ⭐ — ?
+  - PayPal ⭐ — ?
+  - Plaid — ?
 - Singapore
-    - HitPay — ?
-    - Eway Singapore — ?
+  - HitPay — ?
+  - Eway Singapore — ?
 - Malaysia
-    - iPay88 — ?
-    - Gkash — ?
+  - iPay88 — ?
+  - Gkash — ?
 - Indonesia
-    - Midtrans ⭐⭐⭐ — ?
-    - Xendit ⭐⭐⭐ — ?
-    - Durianpay ⭐⭐ — ?
-    - Mayar ⭐ — ?
+  - Midtrans ⭐⭐⭐ — ?
+  - Xendit ⭐⭐⭐ — ?
+  - Durianpay ⭐⭐ — ?
+  - Mayar ⭐ — ?
 
 ## Payment revenue and subscription analysis
 
@@ -1178,7 +1317,7 @@ Subscription data platform and analytics.
 ## Blog
 
 - Dev.to ⭐⭐⭐⭐ — ?
-    - Forem — ?
+  - Forem — ?
 - Hashnode ⭐⭐⭐⭐ — ?
 - [Ghost.org](https://ghost.org/) ⭐⭐⭐ — Turn your audience into a business
 - Medium ⭐⭐ — ?
@@ -1202,30 +1341,30 @@ Subscription data platform and analytics.
 ## Web and product analytics
 
 - Open source
-    - Posthog ❤️⭐⭐⭐⭐ — Host your own product analytics
-        - `posthog-js`, `posthog-node`
-    - Pirsch ❤️⭐⭐⭐⭐— Cookie-Free and Privacy-Friendly Web Analytics
-        - 30-day free trial, `pirsch-sdk`
-    - Plausible ❤️⭐⭐⭐ — Simple, privacy-friendly Google Analytics alternative
-        - 30-day free trial, `plausible-tracker`
-    - Matomo ⭐⭐ — The Google Analytics alternative that protects your data
-    - Umami ⭐ — simple. fast. beautiful. own your website analytics.
+  - Posthog ❤️⭐⭐⭐⭐ — Host your own product analytics
+    - `posthog-js`, `posthog-node`
+  - Pirsch ❤️⭐⭐⭐⭐— Cookie-Free and Privacy-Friendly Web Analytics
+    - 30-day free trial, `pirsch-sdk`
+  - Plausible ❤️⭐⭐⭐ — Simple, privacy-friendly Google Analytics alternative
+    - 30-day free trial, `plausible-tracker`
+  - Matomo ⭐⭐ — The Google Analytics alternative that protects your data
+  - Umami ⭐ — simple. fast. beautiful. own your website analytics.
 - Closed source
-    - Splitbee (Acquired by Vercel) ❤️⭐⭐⭐⭐ — Your all-in-one analytics and conversion platform
-        - `splitbee-js`
-    - [Mixpanel](https://mixpanel.com/) ❤️⭐⭐⭐ — Product Analytics for Mobile, Web, &amp; More
-    - Simple Analytics ❤️⭐⭐⭐ — The privacy-first Google Analytics alternative
-        - 14-day free trial
-    - Fathom Analytics ❤️⭐⭐⭐ — Website analytics without compromise
-        - 7-day free trial, `fathom-client`
-    - [Amplitude](https://amplitude.com/) ⭐⭐⭐ —  The Digital Optimization System
-    - June.so ⭐⭐  — Product-Led Analytics
-        - `@june-so/analytics-next`
-    - [Microsoft Clarify](https://clarity.microsoft.com/) ⭐⭐ — Free Heatmaps &amp; Session Recordings
-    - Google Analytics ⭐⭐ — Analytics Tools &amp; Solutions for Your Business
-    - Hotjar ⭐ — Website Heatmaps &amp; Behavior Analytics Tools
-    - Fullstory ⭐ — Build a More Perfect Digital Experience
-    - heatmap — Real-time analytics for your website
+  - Splitbee (Acquired by Vercel) ❤️⭐⭐⭐⭐ — Your all-in-one analytics and conversion platform
+    - `splitbee-js`
+  - [Mixpanel](https://mixpanel.com/) ❤️⭐⭐⭐ — Product Analytics for Mobile, Web, &amp; More
+  - Simple Analytics ❤️⭐⭐⭐ — The privacy-first Google Analytics alternative
+    - 14-day free trial
+  - Fathom Analytics ❤️⭐⭐⭐ — Website analytics without compromise
+    - 7-day free trial, `fathom-client`
+  - [Amplitude](https://amplitude.com/) ⭐⭐⭐ — The Digital Optimization System
+  - June.so ⭐⭐ — Product-Led Analytics
+    - `@june-so/analytics-next`
+  - [Microsoft Clarify](https://clarity.microsoft.com/) ⭐⭐ — Free Heatmaps &amp; Session Recordings
+  - Google Analytics ⭐⭐ — Analytics Tools &amp; Solutions for Your Business
+  - Hotjar ⭐ — Website Heatmaps &amp; Behavior Analytics Tools
+  - Fullstory ⭐ — Build a More Perfect Digital Experience
+  - heatmap — Real-time analytics for your website
 
 ## Internationalization
 
@@ -1309,12 +1448,12 @@ Subscription data platform and analytics.
 
 - Docker ⭐ — ?
 - Kubernetes — ?
-    - Restack — Creating the next generation of open source developers
+  - Restack — Creating the next generation of open source developers
 
 ## CI/CD
 
 - GitHub Actions ⭐⭐⭐ — ?
-    - Meercode — ?
+  - Meercode — ?
 - [CodeFactor](https://www.codefactor.io/) ⭐⭐⭐ — Automated Code Review for C#, C++, Java, CSS, JS, Go, Python, Ruby, TypeScript, Scala, CoffeeScript, Groovy, C, PHP, Dockerfile, Shell, YAML, HTML, Vue, Swift, Kotlin, PowerShell, Dart and R source code
 - [Buddy Works](https://buddy.works/) — ?
 - Circle CI ⭐ — ?
@@ -1352,9 +1491,9 @@ Subscription data platform and analytics.
 ## Shipping
 
 - Indonesia
-    - Shipper — ?
-    - Biteship — ?
-    - Lalamove — ?
+  - Shipper — ?
+  - Biteship — ?
+  - Lalamove — ?
 
 ---
 
@@ -1459,8 +1598,6 @@ Subscription data platform and analytics.
 - [https://huntr.co/bootcamps](https://huntr.co/bootcamps) - cohort
 - [https://www.teachfloor.com/](https://www.teachfloor.com/) - cohort
 - [https://maven.com/](https://maven.com/)
-
-
 
 ---
 
