@@ -22,7 +22,6 @@ For the simpler version, see [catamyst/stack](https://a.catamyst.com/stack).
   - [References](#references-1)
 - [Stages](#stages)
   - [Stage 0 → Setup](#stage-0--setup)
-    - [References](#references-2)
   - [Stage 1 → Design](#stage-1--design)
   - [Stage 2 → Configuration](#stage-2--configuration)
   - [Stage 2 → Frontend interface](#stage-2--frontend-interface)
@@ -132,7 +131,7 @@ For the simpler version, see [catamyst/stack](https://a.catamyst.com/stack).
   - [Video editing and sharing](#video-editing-and-sharing)
   - [Audio editing and sharing](#audio-editing-and-sharing)
   - [Shipping](#shipping)
-- [References](#references-3)
+- [References](#references-2)
   - [General](#general-1)
   - [Remix](#remix)
   - [GraphQL](#graphql)
@@ -158,7 +157,7 @@ HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Node.js, npm, React, Remix, Nex
 ### Complete version
 
 - JavaScript and TypeScript for programming language
-- Node.js for runtime &amp; npm for package manager
+- Node.js for runtime & npm for package manager
   - Golang and Rust ecosystem as altenatives
 - HTML for markup language and content structure
 - CSS for styling language
@@ -290,7 +289,7 @@ Setup options:
   - Hidden Bar / Vanilla → Hide menu bar items
   - iStat Menus → System status
   - KeyCastr → Show keystroke
-- Bitwarden + Authy → Credentials &amp; 2FA
+- Bitwarden + Authy → Credentials & 2FA
 - External communication
   - Gmail or Google Workspace → Email service by Google
   - HEY → Email service by Basecamp
@@ -298,13 +297,13 @@ Setup options:
   - Twist → Team chat
   - Email → Backup
 - External communication
-  - All in One
+  - Multi Purpose
     - Airtable → Multi purpose business-oriented database
       - Form → Collect submissions data
-  - CRM
+  - CRM (Customer Relationship Management)
     - HubSpot → Free CRM + Help Desk
     - Crisp → Paid CRM + Help Desk
-  - Email marketing
+  - Email Marketing
     - ConvertKit → Free newsletter emails
     - Bento → Paid all-in-one marketing automation platform
   - Community
@@ -312,7 +311,7 @@ Setup options:
     - Slack → Casual chat
 - GitHub → Git hosting and collaboration
   - Refined GitHub → ?
-  - DevHub → Desktop GitHub Notifications &amp; Activities
+  - DevHub → Desktop GitHub Notifications & Activities
 - Slab → Collaborative notes
 - Linear → Internal issue tracking
   - Productlane → User feedback and changelog for Linear
@@ -320,7 +319,7 @@ Setup options:
 - Around → Video call
 - Community → Makerlog, WIP, Twitter, YouTube, etc
 
-### References
+References:
 
 - [https://www.robinwieruch.de/mac-setup-web-development](https://www.robinwieruch.de/mac-setup-web-development/)
 - [https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c)
@@ -458,7 +457,7 @@ Setup options:
 
 ## Stage 6 → API
 
-- HTTPie &amp; Hoppscotch → API client
+- HTTPie & Hoppscotch → API client
 - GraphQL → Data query and manipulation language for API
   - Pothos → ?
 - Nexus → ?
@@ -548,7 +547,7 @@ Setup options:
 - StreamYard — ?
 - [Restream](https://restream.io/) — Create and Multistream Live Video
 - [Riverside](https://riverside.fm/) — ?
-- [Melon](https://melonapp.com/) — Login &amp; Start Streaming
+- [Melon](https://melonapp.com/) — Login & Start Streaming
 
 ### Internal text
 
@@ -564,7 +563,7 @@ Setup options:
 ## Knowledge base
 
 - Slab ❤️⭐⭐⭐ — for primary team knowledge base
-- Outline ⭐⭐ — Team knowledge base &amp; wiki
+- Outline ⭐⭐ — Team knowledge base & wiki
 - Notion ⭐⭐ — for legacy tracks/topics/lessons
 - Reflect ⭐ — keep track of your notes, books, and meetings
 
@@ -621,7 +620,7 @@ Especially for profile pictures.
 - Remote OK — ?
 - Grow Remote — ?
 
-# General / Full Stack / Frontend &amp; Backend
+# General / Full Stack / Frontend & Backend
 
 [https://github.com/catamyst/catamyst](https://github.com/catamyst/catamyst)
 
@@ -641,7 +640,7 @@ Especially for profile pictures.
 - Terminal prompt
   - Starship.rs ⭐⭐⭐ — Cross-Shell Prompt. The minimal, blazing-fast, and infinitely customizable prompt for any shell
 - Terminal commands
-  - [asdf-vm/asdf](https://asdf-vm.com/) ⭐⭐⭐ — Extendable version manager with support for Ruby, Node.js, Elixir, Erlang &amp; more. Manage multiple runtime versions with a single CLI tool
+  - [asdf-vm/asdf](https://asdf-vm.com/) ⭐⭐⭐ — Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more. Manage multiple runtime versions with a single CLI tool
   - [clvv/fasd](https://github.com/clvv/fasd) ⭐⭐⭐ — Fasd (pronounced similar to &quot;fast&quot;) is a command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells. It is inspired by tools like autojump, z and v.
   - [Volta](https://volta.sh/) ⭐⭐⭐ — The Hassle-Free JavaScript Tool Manager
 - Remote login
@@ -655,7 +654,7 @@ Especially for profile pictures.
   - [Release Please](https://github.com/googleapis/release-please) — Automates CHANGELOG generation, the creation of GitHub releases, and version bumps for your projects.
 - GitHub ❤️⭐⭐⭐ — the best Git hosting on the planet
   - Refined GitHub ⭐⭐⭐ — ?
-  - [DevHub](https://devhubapp.com/) ⭐⭐⭐ — Desktop GitHub Notifications &amp; Activities
+  - [DevHub](https://devhubapp.com/) ⭐⭐⭐ — Desktop GitHub Notifications & Activities
   - [Neat](https://neat.run/) ⭐ — Supercharge your GitHub workflow
 - Git tools
   - degit ⭐ — Straightforward project scaffolding, to the info in README
@@ -789,7 +788,7 @@ Especially for profile pictures.
     - query-string — ?
     - qs — ?
   - remix-seo ❤️⭐ —
-  - remix-pwa ❤️⭐ — PWA integration &amp; support for Remix
+  - remix-pwa ❤️⭐ — PWA integration & support for Remix
   - remix-utils ⭐ —
   - remix-themes ⭐ — An abstraction for themes in your Remix app.
   - remix-auth ⭐ — inspired by Passport
@@ -819,7 +818,7 @@ Template, starter kit, or boilerplate:
 ### Pure styling options
 
 - Tailwind CSS ❤️⭐⭐⭐⭐⭐ — A utility-first CSS framework for rapid UI development
-  - [UI Colors](https://uicolors.app) — Tailwind CSS Color Shades Generator &amp; Editor
+  - [UI Colors](https://uicolors.app) — Tailwind CSS Color Shades Generator & Editor
   - PostCSS — CSS transformer
   - @tailwindcss/typography
   - @tailwindcss/forms
@@ -842,7 +841,7 @@ Template, starter kit, or boilerplate:
 - Ariakit — ?
 - Downshift — ?
 - React Select — ?
-- [TanStack Table v8](https://tanstack.com/table/v8) / React Table — Headless UI for building powerful tables &amp; datagrids
+- [TanStack Table v8](https://tanstack.com/table/v8) / React Table — Headless UI for building powerful tables & datagrids
 - Tailwind components
   - Tailwind UI ⭐ — Beautiful UI components
     - Only for references, as VechaiUI and daisyUI provide a more organized UIs
@@ -955,7 +954,7 @@ Template, starter kit, or boilerplate:
   - Nextra — ?
   - Slate — ?
 - Emoji
-  - Twemoji &amp; react-twemoji ⭐⭐⭐ — ?
+  - Twemoji & react-twemoji ⭐⭐⭐ — ?
   - OpenMoji — ?
 - Rich text editor / WYIWYG editor
   - [Tiptap](https://tiptap.dev/) ❤️⭐⭐⭐⭐⭐ — Headless WYSIWYG Text Editor
@@ -1036,7 +1035,7 @@ Template, starter kit, or boilerplate:
 - [Descript](https://www.descript.com/) — All-in-one audio/video editing, as easy as a doc.
 - [Bannerbear](https://www.bannerbear.com/) — API for Automated Image and Video Generation
   - neg4n/next-api-og-image — ?
-- [Senja](https://senja.io/) — The #1 Tool to Collect, Manage &amp; Share Testimonials
+- [Senja](https://senja.io/) — The #1 Tool to Collect, Manage & Share Testimonials
   - [Testimonial.to](https://testimonial.to/) - Collect and embed testimonials in minutes
 
 ---
@@ -1058,7 +1057,7 @@ Template, starter kit, or boilerplate:
   - cors — ?
   - morgan — ?
 - Fastify ⭐⭐⭐ — ?
-- tinyhttp ⭐ — 0-legacy, tiny &amp; fast web framework as a replacement of Express
+- tinyhttp ⭐ — 0-legacy, tiny & fast web framework as a replacement of Express
 - NestJS ⭐ — ?
 - AdonisJS — ?
 - Hapi — ?
@@ -1132,7 +1131,7 @@ Template, starter kit, or boilerplate:
 - ToolJet — ?
 - [Budibase](https://budibase.com/) — ?
 - [Basedash](https://www.basedash.com/) ⭐ — Collaborative Database Editing
-- [Appsmith](https://www.appsmith.com/) ⭐ — Build &amp; self-host internal tools
+- [Appsmith](https://www.appsmith.com/) ⭐ — Build & self-host internal tools
 - [Metabase](https://metabase.com/) — ?
   - The backend written in Clojure which contains a REST API
 
@@ -1356,7 +1355,7 @@ Subscription data platform and analytics.
 - Closed source
   - Splitbee (Acquired by Vercel) ❤️⭐⭐⭐⭐ — Your all-in-one analytics and conversion platform
     - `splitbee-js`
-  - [Mixpanel](https://mixpanel.com/) ❤️⭐⭐⭐ — Product Analytics for Mobile, Web, &amp; More
+  - [Mixpanel](https://mixpanel.com/) ❤️⭐⭐⭐ — Product Analytics for Mobile, Web, & More
   - Simple Analytics ❤️⭐⭐⭐ — The privacy-first Google Analytics alternative
     - 14-day free trial
   - Fathom Analytics ❤️⭐⭐⭐ — Website analytics without compromise
@@ -1364,9 +1363,9 @@ Subscription data platform and analytics.
   - [Amplitude](https://amplitude.com/) ⭐⭐⭐ — The Digital Optimization System
   - June.so ⭐⭐ — Product-Led Analytics
     - `@june-so/analytics-next`
-  - [Microsoft Clarify](https://clarity.microsoft.com/) ⭐⭐ — Free Heatmaps &amp; Session Recordings
-  - Google Analytics ⭐⭐ — Analytics Tools &amp; Solutions for Your Business
-  - Hotjar ⭐ — Website Heatmaps &amp; Behavior Analytics Tools
+  - [Microsoft Clarify](https://clarity.microsoft.com/) ⭐⭐ — Free Heatmaps & Session Recordings
+  - Google Analytics ⭐⭐ — Analytics Tools & Solutions for Your Business
+  - Hotjar ⭐ — Website Heatmaps & Behavior Analytics Tools
   - Fullstory ⭐ — Build a More Perfect Digital Experience
   - heatmap — Real-time analytics for your website
 
@@ -1423,18 +1422,18 @@ Subscription data platform and analytics.
 - [ActiveCampaign](https://www.activecampaign.com/) ⭐⭐⭐ — #1 Customer Experience Automation Platform
 - [Intercom](https://www.intercom.com/) ⭐⭐⭐ — The Engagement OS. The modern customer communications platform that unifies every aspect of the customer journey, from conversion to engagement to support
 - [HubSpot](https://www.hubspot.com/) ⭐⭐⭐ — Inbound Marketing, Sales, and Service Software
-- [Keap](https://keap.com)® ⭐⭐⭐ — fka Infusionsoft — CRM, Sales &amp; Marketing Automation
+- [Keap](https://keap.com)® ⭐⭐⭐ — fka Infusionsoft — CRM, Sales & Marketing Automation
 - [GetResponse](https://www.getresponse.com/) ⭐⭐⭐ — Get Started with a Free Marketing Platform
-- [Klaviyo](https://www.klaviyo.com/) ⭐⭐ — Email Marketing &amp; SMS Automation Platform
+- [Klaviyo](https://www.klaviyo.com/) ⭐⭐ — Email Marketing & SMS Automation Platform
 - [Buttondown](https://buttondown.email/) ⭐⭐ — The easiest way to write your newsletter. Small, elegant tool for producing newsletters
 - [MailerLite](https://www.mailerlite.com/) ⭐⭐ — Create Email Marketing Your Audience Will Love
-- [Keila](https://www.keila.io/) ⭐ — Open Source Email Newsletters Easy &amp; Reliable
+- [Keila](https://www.keila.io/) ⭐ — Open Source Email Newsletters Easy & Reliable
 - [Revue](https://www.getrevue.co/) ⭐ — Editorial newsletter tool for writers and publishers
-- [MailChimp](https://mailchimp.com/) ⭐ — Marketing, Automation &amp; Email Platform
+- [MailChimp](https://mailchimp.com/) ⭐ — Marketing, Automation & Email Platform
 
 ## Transactional email
 
-- [Mailjet](https://www.mailjet.com/) ❤️⭐⭐⭐⭐ — Email Delivery Service for Marketing &amp; Developer Teams
+- [Mailjet](https://www.mailjet.com/) ❤️⭐⭐⭐⭐ — Email Delivery Service for Marketing & Developer Teams
 - [Postmark](https://postmarkapp.com/) ⭐⭐⭐ — Fast, Reliable Email Delivery Service, SMTP, API
 - [DMARC Digests](https://dmarcdigests.com/) — DMARC Monitoring to Protect Your Email Deliverability and Combat Spoofing and Phishing
 - Amazon SES ⭐ — ?
@@ -1485,7 +1484,7 @@ Subscription data platform and analytics.
 
 - ScreenFlow — ?
 - Loom — ?
-- [Grain](https://grain.com/) — Capture &amp; Share Insights from Customer Meetings. The easiest meeting insights tool to understand and communicate the needs of your customers.
+- [Grain](https://grain.com/) — Capture & Share Insights from Customer Meetings. The easiest meeting insights tool to understand and communicate the needs of your customers.
 - tl;dv — ?
 
 ## Audio editing and sharing
