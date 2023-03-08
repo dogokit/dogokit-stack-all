@@ -4,7 +4,7 @@
 
 This is Catamyst's both technical and non-technical stack. The opiniated stack list to manage and build modern apps with web technologies. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
 
-For the simpler version, see [catamyst/stack](https://a.catamyst.com/stack).
+For the simpler version, see [catamyst/stack](https://a.catamyst.com/stack). Which the list items are updated more often.
 
 ## Table of Contents
 
@@ -21,16 +21,16 @@ For the simpler version, see [catamyst/stack](https://a.catamyst.com/stack).
 - [Concepts](#concepts)
   - [References](#references-1)
 - [Stages](#stages)
-  - [Stage 0 → Setup](#stage-0--setup)
-  - [Stage 1 → Design](#stage-1--design)
-  - [Stage 2 → Configuration](#stage-2--configuration)
-  - [Stage 2 → Frontend interface](#stage-2--frontend-interface)
-  - [Stage 3 → Frontend interaction](#stage-3--frontend-interaction)
-  - [Stage 4 → Database, storage, and email](#stage-4--database-storage-and-email)
-  - [Stage 5 → Payment 💰](#stage-5--payment-)
-  - [Stage 6 → API](#stage-6--api)
-  - [Stage 7 → Testing](#stage-7--testing)
-  - [Stage 8 → CI/CD](#stage-8--cicd)
+  - [Stage 0 → Setup 💻](#stage-0--setup-)
+  - [Stage 1 → Design 🎨](#stage-1--design-)
+  - [Stage 2 → Configuration ⚙️](#stage-2--configuration-️)
+  - [Stage 3 → Frontend interface ⚛️](#stage-3--frontend-interface-️)
+  - [Stage 4 → Frontend Interaction ⚡](#stage-4--frontend-interaction-)
+  - [Stage 5 → Database and Service 💿](#stage-5--database-and-service-)
+  - [Stage 6 → Payment 💰](#stage-6--payment-)
+  - [Stage 7 → API 🧩](#stage-7--api-)
+  - [Stage 8 → Testing 🧪](#stage-8--testing-)
+  - [Stage 9 → Automation and Extra ✨](#stage-9--automation-and-extra-)
 - [Work/Management Stack](#workmanagement-stack)
   - [Browser](#browser)
   - [Search Engine](#search-engine)
@@ -262,7 +262,7 @@ All of these information also helps the whole team (or even yourself) to choose 
 
 Here is some quick overview of the preferred or recommended options. Because of the complexity, the setup can go through several stages based on the priorities. In here, there should be no link, annotations, or ratings.
 
-## Stage 0 → Setup
+## Stage 0 → Setup 💻
 
 Setup options:
 
@@ -324,7 +324,7 @@ References:
 - [https://www.robinwieruch.de/mac-setup-web-development](https://www.robinwieruch.de/mac-setup-web-development/)
 - [https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c)
 
-## Stage 1 → Design
+## Stage 1 → Design 🎨
 
 - Figma → UI/UX design tool
   - Figma Tokens → ?
@@ -334,7 +334,7 @@ References:
 - Favicon.io → Favicon Generator
 - Shottr → Screenshot
 
-## Stage 2 → Configuration
+## Stage 2 → Configuration ⚙️
 
 - Terminal, shell, prompt
   - Alacritty → The fastest terminal app
@@ -370,7 +370,7 @@ References:
 - Doppler → Universal Secrets Platform
 - Plop → File generator
 
-## Stage 2 → Frontend interface
+## Stage 3 → Frontend interface ⚛️
 
 - React → Frontend UI library
 - Remix → Full stack web framework on React/Vue
@@ -403,7 +403,7 @@ References:
 - Cloudflare / Google Domains → Domain and DNS
 - Dr. Link Check → Links check
 
-## Stage 3 → Frontend interaction
+## Stage 4 → Frontend Interaction ⚡
 
 - Status monitoring
   - Pulsetic → ?
@@ -431,7 +431,7 @@ References:
 - Feature toggle
   - Growthbook → Feature flagging and experimentation
 
-## Stage 4 → Database, storage, and email
+## Stage 5 → Database and Service 💿
 
 - Prisma → ORM (Object Relational Mapper)
   - Argon2 / bcrypt
@@ -447,7 +447,7 @@ References:
 - Mailjet → Transactional email
 - Basedash → Internal tooling
 
-## Stage 5 → Payment 💰
+## Stage 6 → Payment 💰
 
 - Paddle → Payments infrastructure for Internatioanal
 - Lemon Squeezy
@@ -455,28 +455,27 @@ References:
 - PayPal → Alternative payment method
 - Gumroad → Backup
 
-## Stage 6 → API
+## Stage 7 → API 🧩
 
 - HTTPie & Hoppscotch → API client
 - GraphQL → Data query and manipulation language for API
-  - Pothos → ?
-- Nexus → ?
+  - Pothos GraphQL Schema → ?
 - Axios → REST API client
 - urql → GraphQL client
 - Payload CMS / GraphCMS → Content management system
 - GraphCDN → GraphQL CDN
 
-## Stage 7 → Testing
+## Stage 8 → Testing 🧪
 
 - Falso/Faker → Generate fake data
 - Vitest → ?
-- Cypress → ?
+- testing-library → ?
+- Playwright → ?
 - Mock Service Worker (MSW) → ?
 
-## Stage 8 → CI/CD
+## Stage 9 → Automation and Extra ✨
 
 - GitHub Actions → Build checks
-  - (orang build)
   - Changeset
   - Codecov
 - CodeFactor → Code review
@@ -1070,7 +1069,7 @@ Template, starter kit, or boilerplate:
   - GraphQL Code Generator ⭐ — ?
   - GraphCDN ⭐ — ?
   - Nexus GraphQL ⭐ — ?
-  - [Apollo GraphQL](https://www.apollographql.com/) ⭐ — Supergraph: unify APIs, microservices, and databases in a composable graph. Unifies GraphQL across your apps and services, unlocking faster delivery for your engineering teams.
+  - [Apollo GraphQL](https://www.apollographql.com/) ⭐ — Supergraph to unify APIs, microservices, and databases in a composable graph. Unifies GraphQL across your apps and services, unlocking faster delivery for your engineering teams.
 - REST API ⭐⭐⭐ — ?
   - Still needed in case of an alternative or public API release
 - tRPC — ?
