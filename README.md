@@ -2,7 +2,9 @@
 
 > 🐱 Short URL: [a.catamyst.com/stack-all](https://a.catamyst.com/stack-all)
 
-This is Catamyst's both technical and non-technical stack. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
+This is Catamyst's both technical and non-technical stack. The opiniated stack list to manage and build modern apps with web technologies. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
+
+For the simpler version, see [catamyst/stack](https://a.catamyst.com/stack).
 
 ## Table of Contents
 
@@ -449,6 +451,7 @@ Setup options:
 ## Stage 5 → Payment 💰
 
 - Paddle → Payments infrastructure for Internatioanal
+- Lemon Squeezy
 - Midtrans → Payment gateway for Indonesia
 - PayPal → Alternative payment method
 - Gumroad → Backup
@@ -1272,6 +1275,7 @@ Especially for background process.
   - Outseta ❤️⭐⭐⭐⭐ — ?
   - Paddle ❤️⭐⭐⭐⭐ — ?
     - [https://snappify.io/blog/step-by-step-guide-for-paddle-integration](https://snappify.io/blog/step-by-step-guide-for-paddle-integration)
+  - [Lemon Squeezy](https://lemonsqueezy.com)
   - Quaderno ⭐⭐⭐ — ?
   - Stripe ⭐⭐⭐ — ?
     - Recurly — ?
