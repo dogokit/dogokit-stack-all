@@ -4,7 +4,7 @@
 
 This is Catamyst's both technical and non-technical stack. The opiniated stack list to manage and build modern apps with web technologies. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
 
-For the simpler version, see [catamyst/stack](https://a.catamyst.com/stack). Which the list items are updated more often.
+For the much simpler version, see [catamyst/stack](https://a.catamyst.com/stack). Which the list items are updated more often.
 
 ## Table of Contents
 
@@ -353,6 +353,7 @@ References:
   - Homebrew → macOS
   - apt → Ubuntu
 - asdf → Runtime manager
+  - fnm → Fast Node Manager
   - Volta → JavaScript tool manager
 - Node.js → JavaScript runtime
   - npm → Node.js package manager
@@ -640,6 +641,7 @@ Especially for profile pictures.
   - Starship.rs ⭐⭐⭐ — Cross-Shell Prompt. The minimal, blazing-fast, and infinitely customizable prompt for any shell
 - Terminal commands
   - [asdf-vm/asdf](https://asdf-vm.com/) ⭐⭐⭐ — Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more. Manage multiple runtime versions with a single CLI tool
+  - [fnm](https://fnm.vercel.app) Fast Node Manager — Fast and simple Node.js version manager, built in Rust
   - [clvv/fasd](https://github.com/clvv/fasd) ⭐⭐⭐ — Fasd (pronounced similar to &quot;fast&quot;) is a command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells. It is inspired by tools like autojump, z and v.
   - [Volta](https://volta.sh/) ⭐⭐⭐ — The Hassle-Free JavaScript Tool Manager
 - Remote login
