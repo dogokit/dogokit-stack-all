@@ -330,7 +330,7 @@ References:
   - Figma Tokens → ?
   - Tailwind Color Palette → ?
   - Alphredo → Transparent/alpha colors generator
-- Excalidraw / Whimsical → Quick diagram
+- Eraser / Excalidraw → Quick diagram
 - Favicon.io → Favicon Generator
 - Shottr → Screenshot
 
@@ -745,8 +745,17 @@ Especially for profile pictures.
 
 ## Asset design, diagram, flowchart
 
-- Excalidraw — ?
-- Whimsical — ?
+# Add Later
+
+## Sketch/Diagram
+
+- [Eraser.io](https://eraser.io) ⭐ — ?
+  - [DesignDocs.dev](https://designdocs.dev) — ?
+  - <https://architecturenotes.co> — ?
+  - <https://architecturenotes.co/12-factor-app-revisited> — ?
+- [Excalidraw](https://excalidraw.com) ⭐ — ?
+- [Mermaid](https://mermaid.js.org) — ?
+- [Whimsical](https://whimsical.com) — ?
 - tldraw — ?
 - FigJam by Figma — ?
 - Miro — ?
