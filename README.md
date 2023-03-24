@@ -423,7 +423,7 @@ References:
   - Plausible → Powerful analytics
   - MixPanel → Simple analytics
 - App analytics and error reporting
-  - Sentry → App analytics and error tracking
+  - Highlight / Sentry → App analytics and error tracking
   - LogRocket → ?
   - Metronome → Remix insights
 - Dependency monitoring
@@ -471,7 +471,7 @@ References:
 - Falso/Faker → Generate fake data
 - Vitest → ?
 - testing-library → ?
-- Playwright → ?
+- Playwright / Reflect.run → ?
 - Mock Service Worker (MSW) → ?
 
 ## Stage 9 → Automation and Extra ✨
@@ -1260,6 +1260,8 @@ Especially for background process.
 
 ## End to End
 
+- Playwright
+- [Reflect.run](https://reflect.run)
 - Cypress ⭐⭐⭐ — ?
 
 ## Utility
@@ -1493,6 +1495,7 @@ Subscription data platform and analytics.
 ## Video editing and sharing
 
 - ScreenFlow — ?
+- [Screen Studio](https://screen.studio) — ?
 - Loom — ?
 - [Grain](https://grain.com/) — Capture & Share Insights from Customer Meetings. The easiest meeting insights tool to understand and communicate the needs of your customers.
 - tl;dv — ?
