@@ -292,7 +292,9 @@ Setup options:
 - Bitwarden + Authy → Credentials & 2FA
 - External communication
   - Gmail or Google Workspace → Email service by Google
+    - aka Google Apps / Google App Suite
   - HEY → Email service by Basecamp
+  - ImprovMX
 - Internal communication
   - Twist → Team chat
   - Email → Backup
@@ -317,7 +319,7 @@ Setup options:
   - Productlane → User feedback and changelog for Linear
 - Clockify → Time tracking
 - Around → Video call
-- Community → Makerlog, WIP, Twitter, YouTube, etc
+- Community → YouTube, Twitter, Mastodon, Substack, Hashnode, DevTo, Makerlog, WIP, etc
 
 References:
 
@@ -605,8 +607,9 @@ Especially for profile pictures.
 - Instagram — ?
 - YouTube — ?
 - Discord — ?
-- Showwcase — ?
 - Slack — ?
+- Mastodon — ?
+- Showwcase — ?
 - Makerlog — ?
 - WIP — ?
 - Polywork — ?
@@ -1132,7 +1135,8 @@ Template, starter kit, or boilerplate:
 
 ### CMS with Rich Text Editing
 
-- Hygraph / GraphCMS ⭐⭐⭐⭐⭐ — content management system in static assets
+- Hygraph (aka GraphCMS) ⭐⭐⭐⭐⭐ — content management system in static assets
+- Grafbase
 - Payload CMS ⭐⭐⭐ — ?
 
 ### Internal Tool
