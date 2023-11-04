@@ -1,14 +1,10 @@
-# Catamyst Stack All
+# 🐶 Dogokit Stack All
 
-> 🐱 Short URL: [a.catamyst.com/stack-all](https://a.catamyst.com/stack-all)
-
-This is Catamyst's both technical and non-technical stack. The opiniated stack list to manage and build modern apps with web technologies. Which could also help to setup a new team or company tools. These preferences are mainly from [M Haidar Hanif](https://github.com/mhaidarhanif) at [Catamyst](https://github.com/catamyst).
-
-For the much simpler version, see [catamyst/stack](https://a.catamyst.com/stack). Which the list items are updated more often.
+This is both technical and non-technical stack. The opiniated stack list to manage and build modern apps with web technologies. Which could also help to setup a new team or company tools. For the much simpler version, see Stack. Which the list items might be updated more often.
 
 ## Table of Contents
 
-- [Catamyst Stack All](#catamyst-stack-all)
+- [Dogokit Stack All](#dogokit-stack-all)
   - [Table of Contents](#table-of-contents)
   - [Preferences](#preferences)
     - [Quick version](#quick-version)
@@ -199,7 +195,7 @@ HTML, CSS, Tailwind CSS, JavaScript, TypeScript, Node.js, npm, React, Remix, Nex
 
 ## Names
 
-We called it the Catamyst Stack or the NORSE Stack. The main defaults in the NORSE Stack are:
+We called it the NORSE Stack. The main defaults in the NORSE Stack are:
 
 - **Node.js** and npm as the main platform and package manager
 - **ORM** (Object Relational Mapping), data modeling, and API layer with Prisma and Pothos GraphQL
@@ -229,11 +225,6 @@ All of these information also helps the whole team (or even yourself) to choose 
 
 - ⭐ — Rating
 - ❤️ — Recommended
-
-## References
-
-- [Catamyst Links](https://catamyst.slab.com/posts/e2jeq5fq) — Public deployments and repositories
-- [Catamyst Pages and Features](https://catamyst.slab.com/posts/co0204no) — Public frontend pages
 
 ---
 
@@ -309,6 +300,7 @@ Setup options:
     - ConvertKit → Free newsletter emails
     - Bento → Paid all-in-one marketing automation platform
   - Community
+    - Linen → Public chat forum
     - Discord → Casual chat
     - Slack → Casual chat
 - GitHub → Git hosting and collaboration
@@ -625,8 +617,6 @@ Especially for profile pictures.
 
 # General / Full Stack / Frontend & Backend
 
-[https://github.com/catamyst/catamyst](https://github.com/catamyst/catamyst)
-
 ## Terminal, shell, prompt
 
 - Terminal app
@@ -728,8 +718,6 @@ Especially for profile pictures.
 ---
 
 # Frontend Stack
-
-[https://github.com/catamyst/web](https://github.com/catamyst/web)
 
 ## UI, UX, and graphic design
 
@@ -1054,8 +1042,6 @@ Template, starter kit, or boilerplate:
 ---
 
 # Backend Stack
-
-[https://github.com/catamyst/api](https://github.com/catamyst/api)
 
 ## Platforms and runtimes
 
@@ -1619,10 +1605,3 @@ Subscription data platform and analytics.
 - [https://www.teachfloor.com/](https://www.teachfloor.com/) - cohort
 - [https://maven.com/](https://maven.com/)
 
----
-
-# Legacy versions
-
-The legacy versions are in [Stack (Legacy)](https://catamyst.slab.com/posts/5puqbz0u)
-
-Long ago this was indexed in an Airtable base
